@@ -23,7 +23,8 @@ La CFPB publica:
 
 La encuesta combina una escala validada de bienestar financiero con características del hogar, ahorro y colchones de seguridad, experiencias financieras, conductas, habilidades y actitudes.
 
-**Unidad de análisis:** persona encuestada.  
+**Unidad de análisis:** persona encuestada.
+
 **Regla de inferencia:** usar los pesos provistos para estimaciones descriptivas poblacionales y declarar cuándo un algoritmo de segmentación trabaja sin ponderación.
 
 ## 3. Preguntas de negocio
