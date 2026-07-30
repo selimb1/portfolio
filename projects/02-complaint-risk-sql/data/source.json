@@ -1,0 +1,13 @@
+{
+  "retrieved_at": "2026-07-30T05:01:50+00:00",
+  "rows": 20000,
+  "sample_rule": "first 20,000 parseable rows from a bounded 2025 API extract",
+  "sha256": "8abf3f0b33bb4e4d80b833d813799c7e4d755927cb25b5f072eb96e59df7daf3",
+  "source_type": "CFPB Consumer Complaint Database API",
+  "transformations": [
+    "column normalization",
+    "narrative fields excluded",
+    "complaint_id deduplicated"
+  ],
+  "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/"
+}
