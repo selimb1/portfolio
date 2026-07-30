@@ -1,0 +1,15 @@
+{
+  "cohort": {
+    "3M": "MMM",
+    "Caterpillar": "CAT",
+    "Deere": "DE",
+    "Honeywell": "HON"
+  },
+  "official_refresh_source": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
+  "retrieved_at": "2026-07-30T04:54:48+00:00",
+  "rows": 16,
+  "source_type": "Yahoo Finance statements via yfinance",
+  "transformations": "Selected annual income statement, balance sheet and cash flow line items; retained complete observations.",
+  "unit": "company fiscal year",
+  "url": "https://finance.yahoo.com/"
+}

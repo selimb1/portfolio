@@ -10,9 +10,28 @@ Detecta cuándo una empresa crece a costa de inmovilizar efectivo en clientes o 
 
 **Decisión que habilita:** priorizar acciones sobre cobranzas, inventario, condiciones comerciales o negociación con proveedores.
 
+## Evidencia ejecutada
+
+El caso ya no es solo una propuesta: incluye una muestra reproducible de **16 estados financieros anuales de cuatro compañías industriales (2022–2025)**, cálculo verificable de DSO, DIO, DPO, CCC y flujo de caja libre, pruebas unitarias y resultados versionados.
+
+En el último período comparable, Deere fue la única empresa de la cohorte cuyo CCC se deterioró, aunque apenas **0,22 días**. Esa variación representa aproximadamente **USD 26,8 millones** de caja absorbida por capital de trabajo; al mismo tiempo, las otras tres compañías redujeron su ciclo.
+
+![Crecimiento de ventas y cambio del ciclo de caja](outputs/figure.png)
+
+**Cómo verificarlo**
+
+```bash
+python -m portfolio_analytics.working_capital
+pytest tests/test_working_capital.py
+```
+
+Archivos auditables: [datos](data/sample.csv), [trazabilidad de la fuente](data/source.json), [métricas por empresa](outputs/company_metrics.csv), [métricas de portada](outputs/metrics.json) y [código del análisis](../../src/portfolio_analytics/working_capital.py).
+
 ## 2. Fuente de datos
 
-**Fuente principal real y pública:** [SEC Financial Statement Data Sets](https://www.sec.gov/data-research/sec-markets-data/financial-statement-data-sets), extraídos de estados financieros presentados en XBRL.
+**Muestra incluida:** estados financieros públicos obtenidos mediante Yahoo Finance/yfinance para Caterpillar, Deere, 3M y Honeywell. El manifiesto versionado conserva URL, fecha, método y hash del archivo.
+
+**Fuente oficial para refrescar y ampliar:** [SEC Financial Statement Data Sets](https://www.sec.gov/data-research/sec-markets-data/financial-statement-data-sets), extraídos de estados financieros presentados en XBRL.
 
 **Acceso alternativo para una primera versión:** [SEC EDGAR Companyfacts API](https://www.sec.gov/search-filings/edgar-application-programming-interfaces), que permite consultar hechos XBRL por empresa sin descargar todos los archivos trimestrales.
 
@@ -134,7 +153,7 @@ El gráfico que debe abrir la presentación es la dispersión: separa crecimient
 
 > “El margen se mantuvo, pero la caja contó otra historia: el CCC aumentó **[X días]**, explicado principalmente por **[componente]**, lo que inmovilizó aproximadamente **[importe]**. Volver a la mediana histórica liberaría **[Y%]** de ese monto.”
 
-Los campos entre corchetes se completan solo después de ejecutar y validar el análisis.
+**Insight ejecutado:** “Deere fue la única compañía de la cohorte cuyo ciclo de caja empeoró en 2025: el aumento fue pequeño —0,22 días— pero equivale a aproximadamente USD 26,8 millones de caja absorbida. El resultado muestra por qué un CFO debe traducir días operativos a impacto monetario antes de priorizar una intervención.”
 
 ## 8. Nivel de dificultad
 

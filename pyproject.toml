@@ -19,6 +19,7 @@ dependencies = [
   "pyarrow>=17,<24",
   "requests>=2.32,<3",
   "scikit-learn>=1.5,<2",
+  "yfinance>=0.2.54,<1",
 ]
 
 [project.optional-dependencies]
