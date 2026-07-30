@@ -1,0 +1,13 @@
+{
+  "agencies": 80,
+  "duplicate_like_flags": 311,
+  "injected_anomaly_recall": 0.92,
+  "missing_contract_flags": 18,
+  "payees": 4021,
+  "payments": 25000,
+  "review_queue_exposure_usd": 6742374389.81,
+  "review_queue_rows": 250,
+  "top_evidence_payee": "STATE OF NEW YORK",
+  "top_evidence_score": 99.98,
+  "total_exposure_usd": 16160658456.77
+}
