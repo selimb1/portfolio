@@ -15,6 +15,7 @@ from portfolio_analytics.common import (
     INK,
     ORANGE,
     apply_chart_style,
+    file_sha256,
     project_root,
     save_figure,
     source_manifest,
@@ -286,6 +287,7 @@ def fetch_yahoo_sample(output_path: Path) -> pd.DataFrame:
             official_refresh_source=SEC_SOURCE,
             cohort=TICKERS,
             unit="company fiscal year",
+            sha256=file_sha256(output_path),
             transformations=(
                 "Selected annual income statement, balance sheet and cash "
                 "flow line items; retained complete observations."

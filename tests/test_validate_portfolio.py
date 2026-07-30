@@ -1,5 +1,6 @@
 from pathlib import Path
 from tempfile import TemporaryDirectory
+from hashlib import sha256
 import json
 import unittest
 
@@ -31,11 +32,19 @@ class PortfolioValidationTest(unittest.TestCase):
                 encoding="utf-8",
             )
             (folder / "data").mkdir()
-            (folder / "data" / "sample.csv").write_text(
+            sample_path = folder / "data" / "sample.csv"
+            sample_path.write_text(
                 "id,value\n1,10\n", encoding="utf-8"
             )
             (folder / "data" / "source.json").write_text(
-                json.dumps({"url": "https://example.com/source", "rows": 1}),
+                json.dumps(
+                    {
+                        "url": "https://example.com/source",
+                        "rows": 1,
+                        "retrieved_at": "2026-07-30T00:00:00+00:00",
+                        "sha256": sha256(sample_path.read_bytes()).hexdigest(),
+                    }
+                ),
                 encoding="utf-8",
             )
             (folder / "outputs").mkdir()
@@ -100,6 +109,15 @@ class PortfolioValidationTest(unittest.TestCase):
             (root / "projects" / "02-project" / "data" / "sample.csv").unlink()
             errors = validate_repository(root)
             self.assertTrue(any("data/sample.csv" in error for error in errors))
+
+    def test_source_hash_mismatch_is_reported(self) -> None:
+        with TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            self.build_repo(root)
+            sample = root / "projects" / "04-project" / "data" / "sample.csv"
+            sample.write_text("id,value\n1,999\n", encoding="utf-8")
+            errors = validate_repository(root)
+            self.assertTrue(any("sha256" in error for error in errors))
 
 
 if __name__ == "__main__":

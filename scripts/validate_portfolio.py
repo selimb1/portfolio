@@ -1,4 +1,6 @@
 from pathlib import Path
+from hashlib import sha256
+import csv
 import json
 import math
 import re
@@ -50,6 +52,19 @@ def _notebook_has_executed_output(path: Path) -> bool:
     )
 
 
+def _file_sha256(path: Path) -> str:
+    digest = sha256()
+    with path.open("rb") as source:
+        for chunk in iter(lambda: source.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def _csv_rows(path: Path) -> int:
+    with path.open(encoding="utf-8", newline="") as source:
+        return max(0, sum(1 for _ in csv.reader(source)) - 1)
+
+
 def validate_repository(root: Path) -> list[str]:
     errors: list[str] = []
     briefs = sorted((root / "projects").glob("*/README.md"))
@@ -84,6 +99,21 @@ def validate_repository(root: Path) -> list[str]:
                     errors.append(
                         f"{brief.parent.name}: metrics must be non-empty and finite"
                     )
+        sample_path = brief.parent / "data" / "sample.csv"
+        source_path = brief.parent / "data" / "source.json"
+        if sample_path.is_file() and source_path.is_file():
+            try:
+                source = json.loads(source_path.read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
+                errors.append(f"{brief.parent.name}: invalid source.json")
+            else:
+                for key in ("url", "rows", "retrieved_at", "sha256"):
+                    if key not in source:
+                        errors.append(f"{brief.parent.name}: source.json missing {key}")
+                if source.get("rows") != _csv_rows(sample_path):
+                    errors.append(f"{brief.parent.name}: source row count does not match sample")
+                if source.get("sha256") != _file_sha256(sample_path):
+                    errors.append(f"{brief.parent.name}: source sha256 does not match sample")
         notebook_path = brief.parent / "notebooks" / "analysis.ipynb"
         if notebook_path.is_file() and not _notebook_has_executed_output(
             notebook_path

@@ -25,7 +25,7 @@ python -m portfolio_analytics.working_capital
 pytest tests/test_working_capital.py
 ```
 
-Archivos auditables: [datos](data/sample.csv), [trazabilidad de la fuente](data/source.json), [métricas por empresa](outputs/company_metrics.csv), [métricas de portada](outputs/metrics.json) y [código del análisis](../../src/portfolio_analytics/working_capital.py).
+Archivos auditables: [notebook ejecutado](notebooks/analysis.ipynb), [datos](data/sample.csv), [trazabilidad de la fuente](data/source.json), [métricas por empresa](outputs/company_metrics.csv), [métricas de portada](outputs/metrics.json) y [código del análisis](../../src/portfolio_analytics/working_capital.py).
 
 ## 2. Fuente de datos
 
@@ -151,9 +151,7 @@ El gráfico que debe abrir la presentación es la dispersión: separa crecimient
 
 ## 7. Frase para el portfolio
 
-> “El margen se mantuvo, pero la caja contó otra historia: el CCC aumentó **[X días]**, explicado principalmente por **[componente]**, lo que inmovilizó aproximadamente **[importe]**. Volver a la mediana histórica liberaría **[Y%]** de ese monto.”
-
-**Insight ejecutado:** “Deere fue la única compañía de la cohorte cuyo ciclo de caja empeoró en 2025: el aumento fue pequeño —0,22 días— pero equivale a aproximadamente USD 26,8 millones de caja absorbida. El resultado muestra por qué un CFO debe traducir días operativos a impacto monetario antes de priorizar una intervención.”
+> “Deere fue la única compañía de la cohorte cuyo ciclo de caja empeoró en 2025: el aumento fue pequeño —0,22 días— pero equivale a aproximadamente USD 26,8 millones de caja absorbida. El resultado muestra por qué un CFO debe traducir días operativos a impacto monetario antes de priorizar una intervención.”
 
 ## 8. Nivel de dificultad
 

@@ -25,7 +25,7 @@ python -m portfolio_analytics.spend_anomalies
 pytest tests/test_spend_anomalies.py
 ```
 
-Archivos auditables: [muestra](data/sample.csv), [trazabilidad](data/source.json), [cola con reason codes](outputs/review_queue.csv), [métricas](outputs/metrics.json) y [código](../../src/portfolio_analytics/spend_anomalies.py).
+Archivos auditables: [notebook ejecutado](notebooks/analysis.ipynb), [muestra](data/sample.csv), [trazabilidad](data/source.json), [cola con reason codes](outputs/review_queue.csv), [métricas](outputs/metrics.json) y [código](../../src/portfolio_analytics/spend_anomalies.py).
 
 ## 2. Fuente de datos
 
@@ -234,9 +234,7 @@ La matriz debe abrir la presentación: hace visible que no todos los outliers me
 
 ## 7. Frase para el portfolio
 
-> “El modelo no ‘encontró fraude’: redujo **[N pagos]** a una cola explicable de **[K casos]** que concentró **[X%]** del importe señalado. La combinación de **[regla]** y desvío frente a pares elevó la precisión de revisión de **[A%]** a **[B%]**.”
-
-**Insight ejecutado:** “El sistema no ‘encontró fraude’: redujo 25.000 pagos a 250 casos explicables que concentran USD 6.742 millones de exposición. La validación recuperó 92% de las anomalías inyectadas; el importe sigue siendo señalado, no confirmado, hasta completar la revisión documental.”
+> “El sistema no ‘encontró fraude’: redujo 25.000 pagos a 250 casos explicables que concentran USD 6.742 millones de exposición. La validación recuperó 92% de las anomalías inyectadas; el importe sigue siendo señalado, no confirmado, hasta completar la revisión documental.”
 
 ## 8. Nivel de dificultad
 

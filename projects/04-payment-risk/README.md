@@ -25,7 +25,7 @@ python -m portfolio_analytics.payment_risk
 pytest tests/test_payment_risk.py
 ```
 
-Archivos auditables: [datos](data/sample.csv), [contrato del generador](data/source.json), [predicciones fuera de muestra](outputs/payment_risk_predictions.csv), [métricas](outputs/metrics.json), [model card](outputs/model_card.md) y [código](../../src/portfolio_analytics/payment_risk.py).
+Archivos auditables: [notebook ejecutado](notebooks/analysis.ipynb), [datos](data/sample.csv), [contrato del generador](data/source.json), [predicciones fuera de muestra](outputs/payment_risk_predictions.csv), [métricas](outputs/metrics.json), [model card](outputs/model_card.md) y [código](../../src/portfolio_analytics/payment_risk.py).
 
 ## 2. Fuente de datos
 
@@ -228,9 +228,7 @@ La curva de ganancia debe comparar modelo, regla por importe y selección aleato
 
 ## 7. Frase para el portfolio
 
-> “Con capacidad para contactar solo **[X%]** de las facturas, la política capturó **[Y%]** del importe que terminaría 30+ días vencido, **[Z puntos]** más que priorizar únicamente por monto, manteniendo calibrado el riesgo por segmento.”
-
-**Insight ejecutado:** “Con capacidad para revisar solo el 10% de las facturas, la política capturó el 21,56% del importe que terminó 30+ días vencido y alcanzó un lift de 2,26× sobre selección aleatoria. Es un backtest temporal sobre datos sintéticos reproducibles, no una promesa de impacto causal.”
+> “Con capacidad para revisar solo el 10% de las facturas, la política capturó el 21,56% del importe que terminó 30+ días vencido y alcanzó un lift de 2,26× sobre selección aleatoria. Es un backtest temporal sobre datos sintéticos reproducibles, no una promesa de impacto causal.”
 
 ## 8. Nivel de dificultad
 

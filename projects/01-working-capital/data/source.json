@@ -8,6 +8,7 @@
   "official_refresh_source": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
   "retrieved_at": "2026-07-30T04:54:48+00:00",
   "rows": 16,
+  "sha256": "bbcd41db99430e9980816b92f013e5c6f546b0651f4dcb5df26b9816c62c8fe3",
   "source_type": "Yahoo Finance statements via yfinance",
   "transformations": "Selected annual income statement, balance sheet and cash flow line items; retained complete observations.",
   "unit": "company fiscal year",

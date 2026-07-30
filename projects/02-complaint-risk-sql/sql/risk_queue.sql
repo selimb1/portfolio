@@ -34,10 +34,22 @@ monthly_trend AS (
         ) AS complaints_3m_average
     FROM monthly_company
 ),
+product_counts AS (
+    SELECT
+        company,
+        product,
+        COUNT(*) AS product_complaints,
+        ROW_NUMBER() OVER (
+            PARTITION BY company
+            ORDER BY COUNT(*) DESC, product ASC
+        ) AS product_rank
+    FROM base
+    GROUP BY 1, 2
+),
 company_rollup AS (
     SELECT
         b.company,
-        MODE(b.product) AS primary_product,
+        MAX(CASE WHEN p.product_rank = 1 THEN p.product END) AS primary_product,
         COUNT(*) AS complaint_count,
         AVG(1 - b.timely_response) AS untimely_rate,
         AVG(b.consumer_disputed) AS dispute_rate,
@@ -54,6 +66,9 @@ company_rollup AS (
     LEFT JOIN monthly_trend t
         ON b.company = t.company
        AND b.complaint_month = t.complaint_month
+    LEFT JOIN product_counts p
+        ON b.company = p.company
+       AND b.product = p.product
     GROUP BY 1
 ),
 scored AS (

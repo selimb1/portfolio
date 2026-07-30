@@ -36,8 +36,8 @@ risk_rank,company,primary_product,complaint_count,untimely_rate_pct,dispute_rate
 35,"I.C. System, Inc.",Debt collection,26,0.0,0.0,14,26,0.0,51.66
 36,TRUIST FINANCIAL CORPORATION,Credit reporting or other personal consumer reports,26,0.0,0.0,10,26,0.0,51.66
 37,U.S. BANCORP,Checking or savings account,26,0.0,0.0,14,26,0.0,51.66
-38,TD BANK US HOLDING COMPANY,Credit reporting or other personal consumer reports,25,0.0,0.0,13,25,0.0,51.55
-39,BARCLAYS BANK DELAWARE,Credit reporting or other personal consumer reports,24,0.0,0.0,11,24,0.0,51.2
+38,TD BANK US HOLDING COMPANY,Credit card,25,0.0,0.0,13,25,0.0,51.55
+39,BARCLAYS BANK DELAWARE,Credit card,24,0.0,0.0,11,24,0.0,51.2
 40,"Fidelity National Information Services, Inc. (FNIS)",Credit reporting or other personal consumer reports,24,0.0,0.0,15,24,0.0,51.2
 41,"Kriya Capital, LLC",Debt collection,24,0.0,0.0,13,24,0.0,51.2
 42,ALLY FINANCIAL INC.,Credit reporting or other personal consumer reports,23,0.0,0.0,14,23,0.0,50.97
@@ -91,7 +91,7 @@ risk_rank,company,primary_product,complaint_count,untimely_rate_pct,dispute_rate
 90,CORELOGIC INC,Credit reporting or other personal consumer reports,7,0.0,0.0,5,7,0.0,44.76
 91,"CarMax, Inc.",Credit reporting or other personal consumer reports,7,0.0,0.0,5,7,0.0,44.76
 92,"ENOVA INTERNATIONAL, INC.","Payday loan, title loan, personal loan, or advance loan",7,0.0,0.0,7,7,0.0,44.76
-93,ROBINHOOD MARKETS INC.,"Money transfer, virtual currency, or money service",7,0.0,0.0,7,7,0.0,44.76
+93,ROBINHOOD MARKETS INC.,Checking or savings account,7,0.0,0.0,7,7,0.0,44.76
 94,Selene Holdings LLC,Mortgage,7,0.0,0.0,7,7,0.0,44.76
 95,Synovus Bank,Credit reporting or other personal consumer reports,7,0.0,0.0,7,7,0.0,44.76
 96,T.S. Holdings,Debt collection,7,0.0,0.0,5,7,0.0,44.76
@@ -137,7 +137,7 @@ risk_rank,company,primary_product,complaint_count,untimely_rate_pct,dispute_rate
 136,"Coinbase, Inc.","Money transfer, virtual currency, or money service",5,0.0,0.0,3,5,0.0,40.85
 137,"Consumer Portfolio Services, Inc.",Credit reporting or other personal consumer reports,5,0.0,0.0,4,5,0.0,40.85
 138,FIFTH THIRD FINANCIAL CORPORATION,Checking or savings account,5,0.0,0.0,5,5,0.0,40.85
-139,HYUNDAI CAPITAL AMERICA,Vehicle loan or lease,5,0.0,0.0,4,5,0.0,40.85
+139,HYUNDAI CAPITAL AMERICA,Credit reporting or other personal consumer reports,5,0.0,0.0,4,5,0.0,40.85
 140,KEYCORP,Checking or savings account,5,0.0,0.0,4,5,0.0,40.85
 141,MoneyLion Inc.,Credit reporting or other personal consumer reports,5,0.0,0.0,5,5,0.0,40.85
 142,OPORTUN FINANCIAL CORPORATION,Credit reporting or other personal consumer reports,5,0.0,0.0,4,5,0.0,40.85
@@ -162,14 +162,14 @@ risk_rank,company,primary_product,complaint_count,untimely_rate_pct,dispute_rate
 161,"Halsted Financial Services, LLC.",Debt collection,4,0.0,0.0,4,4,0.0,38.78
 162,"Lockhart, Morris & Montgomery Inc.",Debt collection,4,0.0,0.0,4,4,0.0,38.78
 163,"Marlette Funding, LLC",Credit card,4,0.0,0.0,1,4,0.0,38.78
-164,"Sequium Asset Solutions, LLC",Debt collection,4,0.0,0.0,4,4,0.0,38.78
+164,"Sequium Asset Solutions, LLC",Credit reporting or other personal consumer reports,4,0.0,0.0,4,4,0.0,38.78
 165,"UPGRADE, INC.","Payday loan, title loan, personal loan, or advance loan",4,0.0,0.0,3,4,0.0,38.78
 166,World Omni Financial Corp.,Credit reporting or other personal consumer reports,4,0.0,0.0,3,4,0.0,38.78
 167,"Ability Recovery Services, LLC",Debt collection,3,0.0,0.0,3,3,0.0,34.75
 168,"Advance America, Cash Advance Centers, Inc.",Debt collection,3,0.0,0.0,3,3,0.0,34.75
 169,AmeriCollect,Debt collection,3,0.0,0.0,2,3,0.0,34.75
 170,"Amsher Collection Services, Inc.",Debt collection,3,0.0,0.0,3,3,0.0,34.75
-171,BANCO POPULAR DE PUERTO RICO,Credit reporting or other personal consumer reports,3,0.0,0.0,2,3,0.0,34.75
+171,BANCO POPULAR DE PUERTO RICO,Credit card,3,0.0,0.0,2,3,0.0,34.75
 172,BTH Management,Credit reporting or other personal consumer reports,3,0.0,0.0,3,3,0.0,34.75
 173,Bright Capital Inc,Credit card,3,0.0,0.0,2,3,0.0,34.75
 174,CNG FINANCIAL CORPORATION,Credit reporting or other personal consumer reports,3,0.0,0.0,3,3,0.0,34.75
@@ -179,7 +179,7 @@ risk_rank,company,primary_product,complaint_count,untimely_rate_pct,dispute_rate
 178,Credit Service International Corp,Debt collection,3,0.0,0.0,3,3,0.0,34.75
 179,Diverse Funding Associates LLC,Debt collection,3,0.0,0.0,3,3,0.0,34.75
 180,"Diversified Adjustment Service, Inc.",Debt collection,3,0.0,0.0,2,3,0.0,34.75
-181,DriveTime,Vehicle loan or lease,3,0.0,0.0,3,3,0.0,34.75
+181,DriveTime,Credit reporting or other personal consumer reports,3,0.0,0.0,3,3,0.0,34.75
 182,FIRST TECHNOLOGY FEDERAL CREDIT UNION,Checking or savings account,3,0.0,0.0,3,3,0.0,34.75
 183,FinCo Services Inc DBA Current,Checking or savings account,3,0.0,0.0,3,3,0.0,34.75
 184,"LoanCare, LLC",Mortgage,3,0.0,0.0,3,3,0.0,34.75
@@ -192,18 +192,18 @@ risk_rank,company,primary_product,complaint_count,untimely_rate_pct,dispute_rate
 191,"RentDebt Automated Collections, LLC",Debt collection,3,0.0,0.0,2,3,0.0,34.75
 192,SECURITY FINANCE CORP,Credit reporting or other personal consumer reports,3,0.0,0.0,3,3,0.0,34.75
 193,SOUTHSTATE BANK CORPORATION,Credit reporting or other personal consumer reports,3,0.0,0.0,2,3,0.0,34.75
-194,Sezzle Inc.,Debt collection,3,0.0,0.0,3,3,0.0,34.75
+194,Sezzle Inc.,Credit reporting or other personal consumer reports,3,0.0,0.0,3,3,0.0,34.75
 195,Stellantis Financial Services US Corp.,Credit reporting or other personal consumer reports,3,0.0,0.0,3,3,0.0,34.75
 196,Thaxton Investment Corporation,Credit reporting or other personal consumer reports,3,0.0,0.0,3,3,0.0,34.75
 197,The Aligned Company DBA Extra,Credit reporting or other personal consumer reports,3,0.0,0.0,2,3,0.0,34.75
 198,Unifin Inc.,Debt collection,3,0.0,0.0,3,3,0.0,34.75
-199,VYSTAR CREDIT UNION,Debt collection,3,0.0,0.0,2,3,0.0,34.75
+199,VYSTAR CREDIT UNION,Credit reporting or other personal consumer reports,3,0.0,0.0,2,3,0.0,34.75
 200,21ST MORTGAGE CORP.,Mortgage,2,0.0,0.0,1,2,0.0,26.92
-201,AMERICAN HONDA FINANCE CORP,Vehicle loan or lease,2,0.0,0.0,2,2,0.0,26.92
+201,AMERICAN HONDA FINANCE CORP,Debt collection,2,0.0,0.0,2,2,0.0,26.92
 202,Account Resolution Corporation,Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
 203,"AmeriHome Mortgage Company, LLC",Mortgage,2,0.0,0.0,2,2,0.0,26.92
 204,"American Collections Enterprise, Inc.",Debt collection,2,0.0,0.0,1,2,0.0,26.92
-205,"American First Finance, Inc.","Payday loan, title loan, personal loan, or advance loan",2,0.0,0.0,2,2,0.0,26.92
+205,"American First Finance, Inc.",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
 206,"Americas Car-Mart, Inc.",Vehicle loan or lease,2,0.0,0.0,2,2,0.0,26.92
 207,"Ava Finance, Inc",Credit card,2,0.0,0.0,2,2,0.0,26.92
 208,"Avant Holding Company, Inc.",Credit card,2,0.0,0.0,2,2,0.0,26.92
@@ -213,20 +213,20 @@ risk_rank,company,primary_product,complaint_count,untimely_rate_pct,dispute_rate
 212,"Bull City Financial Solutions, Inc",Debt collection,2,0.0,0.0,2,2,0.0,26.92
 213,"Burke Moore Law Group, LLP",Debt collection,2,0.0,0.0,1,2,0.0,26.92
 214,"Checkr, Inc",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
-215,"Credit Systems International, Inc.",Debt collection,2,0.0,0.0,2,2,0.0,26.92
+215,"Credit Systems International, Inc.",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
 216,DigniFi,Credit card,2,0.0,0.0,2,2,0.0,26.92
 217,"EGL US, LLC",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
 218,"Esusu, Inc.",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
 219,"F.H. Cann & Associates, Inc.",Debt collection,2,0.0,0.0,2,2,0.0,26.92
 220,FISERV FINXACT CORE,Checking or savings account,2,0.0,0.0,2,2,0.0,26.92
-221,FORD MOTOR CREDIT CO.,Debt collection,2,0.0,0.0,2,2,0.0,26.92
+221,FORD MOTOR CREDIT CO.,Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
 222,"FactorTrust, Inc.",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
-223,"Financial Management Solutions, LLC",Debt collection,2,0.0,0.0,2,2,0.0,26.92
+223,"Financial Management Solutions, LLC",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
 224,First Credit Services Inc.,Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
 225,"First Help Financial, LLC",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
 226,"January Technologies, Inc",Debt collection,2,0.0,0.0,2,2,0.0,26.92
 227,"King of Credit Financial, Inc",Credit reporting or other personal consumer reports,2,0.0,0.0,1,2,0.0,26.92
-228,"Kinum, Inc., Indianapolis, IN Branch",Debt collection,2,0.0,0.0,2,2,0.0,26.92
+228,"Kinum, Inc., Indianapolis, IN Branch",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
 229,Klarna AB,"Payday loan, title loan, personal loan, or advance loan",2,0.0,0.0,2,2,0.0,26.92
 230,Knight Adjustment Bureau,Debt collection,2,0.0,0.0,1,2,0.0,26.92
 231,Kovo,Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
@@ -235,21 +235,21 @@ risk_rank,company,primary_product,complaint_count,untimely_rate_pct,dispute_rate
 234,"MARINER FINANCE, LLC",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
 235,"MRS BPO, LLC",Debt collection,2,0.0,0.0,2,2,0.0,26.92
 236,Mercedes Benz Financial Services,Credit reporting or other personal consumer reports,2,0.0,0.0,1,2,0.0,26.92
-237,Mercury Financial Intermediate LLC,Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+237,Mercury Financial Intermediate LLC,Credit card,2,0.0,0.0,2,2,0.0,26.92
 238,MicroBilt / PRBC (formerly CL Verify),Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
 239,"Milliman, Inc.",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
 240,NEW YORK COMMUNITY BANCORP INC,Credit card,2,0.0,0.0,2,2,0.0,26.92
-241,"Paramount GR Holdings, LLC","Payday loan, title loan, personal loan, or advance loan",2,0.0,0.0,2,2,0.0,26.92
+241,"Paramount GR Holdings, LLC",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
 242,"PatientFi, Inc.",Debt collection,2,0.0,0.0,1,2,0.0,26.92
-243,"Professional Debt Mediation, Inc.",Debt collection,2,0.0,0.0,2,2,0.0,26.92
+243,"Professional Debt Mediation, Inc.",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
 244,"Propel, Inc.",Checking or savings account,2,0.0,0.0,2,2,0.0,26.92
 245,RANDOLPH-BROOKS FEDERAL CREDIT UNION,Credit card,2,0.0,0.0,1,2,0.0,26.92
 246,Rosebud Economic Development Corporation,"Payday loan, title loan, personal loan, or advance loan",2,0.0,0.0,2,2,0.0,26.92
-247,SG and Associates,Debt collection,2,0.0,0.0,2,2,0.0,26.92
+247,SG and Associates,Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
 248,SLM CORPORATION,Student loan,2,0.0,0.0,2,2,0.0,26.92
 249,STATE EMPLOYEES CREDIT UNION,Credit reporting or other personal consumer reports,2,0.0,0.0,1,2,0.0,26.92
 250,"Sentry Recovery and Collections, Inc.",Debt collection,2,0.0,0.0,2,2,0.0,26.92
-251,SinglePoint GI,Debt collection,2,0.0,0.0,2,2,0.0,26.92
+251,SinglePoint GI,Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
 252,"Skrill USA, Inc.","Money transfer, virtual currency, or money service",2,0.0,0.0,2,2,0.0,26.92
 253,Southern Management Systems Inc.,Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
 254,"Sparrow Financial, Inc.",Credit reporting or other personal consumer reports,2,0.0,0.0,1,2,0.0,26.92

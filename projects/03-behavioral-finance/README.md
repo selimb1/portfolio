@@ -25,7 +25,7 @@ python -m portfolio_analytics.behavioral_finance
 pytest tests/test_behavioral_finance.py
 ```
 
-Archivos auditables: [muestra](data/sample.csv), [trazabilidad](data/source.json), [perfiles](outputs/segment_profiles.csv), [asignaciones](outputs/respondent_segments.csv), [métricas](outputs/metrics.json) y [código](../../src/portfolio_analytics/behavioral_finance.py).
+Archivos auditables: [notebook ejecutado](notebooks/analysis.ipynb), [muestra](data/sample.csv), [trazabilidad](data/source.json), [perfiles](outputs/segment_profiles.csv), [asignaciones](outputs/respondent_segments.csv), [métricas](outputs/metrics.json) y [código](../../src/portfolio_analytics/behavioral_finance.py).
 
 ## 2. Fuente de datos
 
@@ -173,9 +173,7 @@ Preferir dot plots al radar si se necesita comparar con precisión. El cuadrante
 
 ## 7. Frase para el portfolio
 
-> “El ingreso no explicó toda la diferencia: dentro del mismo quintil, el segmento **[nombre]** mostró una brecha de **[X puntos]** de bienestar asociada con **[conducta/resiliencia]**. La oportunidad no es dar más información, sino reducir **[fricción concreta]**.”
-
-**Insight ejecutado:** “La brecha entre los perfiles extremos fue de 29,6 puntos de bienestar y la capacidad de absorber un shock mostró la asociación estandarizada más fuerte. La oportunidad no es dar más información a todos, sino adaptar automatización, simplificación y construcción de resiliencia a la fricción de cada segmento.”
+> “La brecha entre los perfiles extremos fue de 29,6 puntos de bienestar y la capacidad de absorber un shock mostró la asociación estandarizada más fuerte. La oportunidad no es dar más información a todos, sino adaptar automatización, simplificación y construcción de resiliencia a la fricción de cada segmento.”
 
 “Asociada” es deliberado: el diseño observacional no autoriza lenguaje causal.
 
