@@ -50,7 +50,7 @@ PROJECTS = [
 def notebook_for(config: dict[str, str]) -> nbformat.NotebookNode:
     directory = config["directory"]
     module = config["module"]
-    return nbformat.v4.new_notebook(
+    notebook = nbformat.v4.new_notebook(
         cells=[
             nbformat.v4.new_markdown_cell(
                 f"# {config['title']}\n\n"
@@ -100,6 +100,10 @@ def notebook_for(config: dict[str, str]) -> nbformat.NotebookNode:
             "language_info": {"name": "python", "version": "3"},
         },
     )
+    identifier_prefix = directory.replace("-", "_")
+    for index, cell in enumerate(notebook.cells, start=1):
+        cell["id"] = f"{identifier_prefix}_{index:02d}"
+    return notebook
 
 
 def build_all(root: Path) -> None:
