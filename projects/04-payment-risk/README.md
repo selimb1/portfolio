@@ -14,6 +14,8 @@ Predice, al emitir una factura, cuáles tienen mayor probabilidad de pagarse con
 
 No suele existir un dataset público de cuentas por cobrar B2B con historial, condiciones comerciales y pagos por factura. Por eso se propone un **generador sintético reproducible**, diseñado con reglas contables explícitas.
 
+Para calibrar distribuciones agregadas se puede usar el [CSV público de Payment Practices Reporting del gobierno británico](https://check-payment-practices.service.gov.uk/export/), que informa tiempos y proporciones de facturas pagadas fuera de término por grandes empresas. Esos agregados sirven como benchmark; no se transforman en historiales de factura inexistentes.
+
 Escala recomendada:
 
 - 2.000 clientes;
