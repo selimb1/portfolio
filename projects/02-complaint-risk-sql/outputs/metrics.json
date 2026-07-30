@@ -1,0 +1,10 @@
+{
+  "companies": 479,
+  "complaints": 20000,
+  "products": 11,
+  "sql_window_functions": 6,
+  "top_company_complaints": 73,
+  "top_company_untimely_rate_pct": 2.74,
+  "top_risk_company": "Portfolio Recovery Associates, LLC",
+  "top_risk_score": 96.12
+}

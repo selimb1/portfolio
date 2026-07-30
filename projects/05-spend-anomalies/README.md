@@ -10,9 +10,28 @@ Transforma pagos y contratos públicos en una cola de revisión explicable, para
 
 **Decisión que habilita:** seleccionar qué pago, proveedor o patrón revisar, con una razón trazable y sin confundir una señal estadística con fraude.
 
+## Evidencia ejecutada
+
+El pipeline procesa **25.000 pagos reales del ejercicio fiscal 2024**, pertenecientes a 80 agencias y 4.021 beneficiarios. Combina cuatro reason codes contables con Isolation Forest y materialidad; cada alerta conserva las señales que justifican su posición.
+
+La cola reduce el universo a **250 casos (1%)** que concentran **USD 6.742 millones** de los USD 16.161 millones observados. En una validación controlada recuperó **92%** de las anomalías inyectadas. El primer caso es un pago a “STATE OF NEW YORK”; eso significa “revisar documentación”, no “fraude”.
+
+![Matriz de evidencia y exposición](outputs/figure.png)
+
+**Cómo verificarlo**
+
+```bash
+python -m portfolio_analytics.spend_anomalies
+pytest tests/test_spend_anomalies.py
+```
+
+Archivos auditables: [notebook ejecutado](notebooks/analysis.ipynb), [muestra](data/sample.csv), [trazabilidad](data/source.json), [cola con reason codes](outputs/review_queue.csv), [métricas](outputs/metrics.json) y [código](../../src/portfolio_analytics/spend_anomalies.py).
+
 ## 2. Fuente de datos
 
-**Fuente real, pública y actualizable:** [Checkbook NYC Data Feeds API](https://www.checkbooknyc.com/data-feeds/api).
+**Muestra incluida:** [NYC Databook](https://databook.nyc/procurement/data-sources), un dataset público derivado de Checkbook NYC y publicado en Parquet. La muestra conserva la URL exacta del objeto, fecha, criterio y hash.
+
+**Fuente oficial para ampliar:** [Checkbook NYC Data Feeds API](https://www.checkbooknyc.com/data-feeds/api).
 
 La API expone datos de presupuesto, contratos, nómina, ingresos y gasto de la Ciudad de Nueva York. Para este proyecto se combinan los dominios de **spending** y **contracts**.
 
@@ -215,9 +234,7 @@ La matriz debe abrir la presentación: hace visible que no todos los outliers me
 
 ## 7. Frase para el portfolio
 
-> “El modelo no ‘encontró fraude’: redujo **[N pagos]** a una cola explicable de **[K casos]** que concentró **[X%]** del importe señalado. La combinación de **[regla]** y desvío frente a pares elevó la precisión de revisión de **[A%]** a **[B%]**.”
-
-Los porcentajes solo se publican después de una revisión etiquetada. “Importe señalado” y “importe confirmado” deben aparecer separados.
+> “El sistema no ‘encontró fraude’: redujo 25.000 pagos a 250 casos explicables que concentran USD 6.742 millones de exposición. La validación recuperó 92% de las anomalías inyectadas; el importe sigue siendo señalado, no confirmado, hasta completar la revisión documental.”
 
 ## 8. Nivel de dificultad
 

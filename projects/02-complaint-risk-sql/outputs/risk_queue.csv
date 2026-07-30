@@ -1,0 +1,480 @@
+risk_rank,company,primary_product,complaint_count,untimely_rate_pct,dispute_rate_pct,states,peak_monthly_complaints,maximum_monthly_growth_pct,risk_score
+1,"Portfolio Recovery Associates, LLC",Debt collection,73,2.74,0.0,17,73,0.0,96.12
+2,LEXISNEXIS,Credit reporting or other personal consumer reports,62,1.61,0.0,23,62,0.0,95.45
+3,"CCS Financial Services, Inc.",Debt collection,37,64.86,0.0,17,37,0.0,95.3
+4,"John C. Heath, Attorney at Law, PLLC",Debt or credit management,47,6.38,0.0,23,47,0.0,95.18
+5,"OLIPHANT FINANCIAL, LLC",Debt collection,5,20.0,0.0,5,5,0.0,83.31
+6,Incomm Holdings Inc.,Prepaid card,4,75.0,0.0,4,4,0.0,81.8
+7,Westcreek Financial,Debt collection,4,25.0,0.0,3,4,0.0,81.33
+8,Servicer under contract with Federal Student Aid,Student loan,3,100.0,0.0,3,3,0.0,77.87
+9,TomoCredit Inc.,Credit card,3,66.67,0.0,2,3,0.0,77.68
+10,"Applied Data Finance, LLC",Credit reporting or other personal consumer reports,2,50.0,0.0,2,2,0.0,69.57
+11,"Tesla, Inc.",Credit reporting or other personal consumer reports,2,50.0,0.0,2,2,0.0,69.57
+12,"TRANSUNION INTERMEDIATE HOLDINGS, INC.",Credit reporting or other personal consumer reports,5763,0.0,0.0,53,5763,0.0,55.0
+13,Experian Information Solutions Inc.,Credit reporting or other personal consumer reports,5732,0.0,0.0,54,5732,0.0,54.88
+14,"EQUIFAX, INC.",Credit reporting or other personal consumer reports,5371,0.0,0.0,53,5371,0.0,54.77
+15,Resurgent Capital Services L.P.,Debt collection,150,0.0,0.0,26,150,0.0,54.65
+16,CAPITAL ONE FINANCIAL CORPORATION,Credit reporting or other personal consumer reports,134,0.0,0.0,35,134,0.0,54.54
+17,JPMORGAN CHASE & CO.,Checking or savings account,102,0.0,0.0,28,102,0.0,54.42
+18,"CITIBANK, N.A.",Credit card,89,0.0,0.0,22,89,0.0,54.31
+19,CL Holdings LLC,Debt collection,88,0.0,0.0,27,88,0.0,54.19
+20,WELLS FARGO & COMPANY,Checking or savings account,86,0.0,0.0,27,86,0.0,54.08
+21,AMERICAN EXPRESS COMPANY,Credit card,82,0.0,0.0,26,82,0.0,53.96
+22,"BANK OF AMERICA, NATIONAL ASSOCIATION",Checking or savings account,68,0.0,0.0,23,68,0.0,53.73
+23,ENCORE CAPITAL GROUP INC.,Debt collection,66,0.0,0.0,23,66,0.0,53.62
+24,SYNCHRONY FINANCIAL,Credit card,64,0.0,0.0,26,64,0.0,53.5
+25,"CBC Companies, Inc.",Credit reporting or other personal consumer reports,62,0.0,0.0,23,62,0.0,53.27
+26,NAVY FEDERAL CREDIT UNION,Credit reporting or other personal consumer reports,58,0.0,0.0,20,58,0.0,53.16
+27,DISCOVER BANK,Credit reporting or other personal consumer reports,50,0.0,0.0,20,50,0.0,53.04
+28,MOHELA,Student loan,47,0.0,0.0,24,47,0.0,52.81
+29,GOLDMAN SACHS BANK USA,Credit card,40,0.0,0.0,15,40,0.0,52.7
+30,"Bread Financial Holdings, Inc.",Credit card,38,0.0,0.0,15,38,0.0,52.58
+31,TRANSWORLD SYSTEMS INC,Debt collection,31,0.0,0.0,15,31,0.0,52.35
+32,"Early Warning Services, LLC",Credit reporting or other personal consumer reports,30,0.0,0.0,18,30,0.0,52.12
+33,"SANTANDER HOLDINGS USA, INC.",Vehicle loan or lease,30,0.0,0.0,18,30,0.0,52.12
+34,"Block, Inc.","Money transfer, virtual currency, or money service",27,0.0,0.0,20,27,0.0,52.01
+35,"I.C. System, Inc.",Debt collection,26,0.0,0.0,14,26,0.0,51.66
+36,TRUIST FINANCIAL CORPORATION,Credit reporting or other personal consumer reports,26,0.0,0.0,10,26,0.0,51.66
+37,U.S. BANCORP,Checking or savings account,26,0.0,0.0,14,26,0.0,51.66
+38,TD BANK US HOLDING COMPANY,Credit card,25,0.0,0.0,13,25,0.0,51.55
+39,BARCLAYS BANK DELAWARE,Credit card,24,0.0,0.0,11,24,0.0,51.2
+40,"Fidelity National Information Services, Inc. (FNIS)",Credit reporting or other personal consumer reports,24,0.0,0.0,15,24,0.0,51.2
+41,"Kriya Capital, LLC",Debt collection,24,0.0,0.0,13,24,0.0,51.2
+42,ALLY FINANCIAL INC.,Credit reporting or other personal consumer reports,23,0.0,0.0,14,23,0.0,50.97
+43,"Paypal Holdings, Inc","Money transfer, virtual currency, or money service",23,0.0,0.0,12,23,0.0,50.97
+44,"Affirm Holdings, Inc",Credit reporting or other personal consumer reports,22,0.0,0.0,12,22,0.0,50.74
+45,Chime Financial Inc,Checking or savings account,22,0.0,0.0,13,22,0.0,50.74
+46,"National Credit Systems,Inc.",Debt collection,21,0.0,0.0,9,21,0.0,50.51
+47,OneMain Finance Corporation,Credit reporting or other personal consumer reports,21,0.0,0.0,12,21,0.0,50.51
+48,"CAINE & WEINER COMPANY, INC.",Debt collection,20,0.0,0.0,10,20,0.0,50.4
+49,"Westlake Services, LLC",Credit reporting or other personal consumer reports,19,0.0,0.0,7,19,0.0,50.28
+50,CREDIT ACCEPTANCE CORPORATION,Credit reporting or other personal consumer reports,18,0.0,0.0,9,18,0.0,50.05
+51,"Spring Oaks Capital, LLC",Debt collection,18,0.0,0.0,11,18,0.0,50.05
+52,"Shellpoint Partners, LLC",Mortgage,17,0.0,0.0,12,17,0.0,49.94
+53,"Rowland Avenue Management, Inc. A/KA Columbia Debt Recovery, LLC d/b/a Genesis",Debt collection,15,0.0,0.0,10,15,0.0,49.82
+54,"CITIZENS FINANCIAL GROUP, INC.",Checking or savings account,14,0.0,0.0,9,14,0.0,49.13
+55,"General Motors Financial Company, Inc.",Credit reporting or other personal consumer reports,14,0.0,0.0,9,14,0.0,49.13
+56,"HW Holding, Inc",Debt collection,14,0.0,0.0,9,14,0.0,49.13
+57,"National Credit Adjusters, LLC",Debt collection,14,0.0,0.0,7,14,0.0,49.13
+58,PNC Bank N.A.,Checking or savings account,14,0.0,0.0,10,14,0.0,49.13
+59,UNITED SERVICES AUTOMOBILE ASSOCIATION,Checking or savings account,14,0.0,0.0,11,14,0.0,49.13
+60,"Nelnet, Inc.",Student loan,13,0.0,0.0,10,13,0.0,49.02
+61,Freedom Mortgage Company,Mortgage,12,0.0,0.0,11,12,0.0,48.56
+62,"Maximus Federal Services, Inc.",Student loan,12,0.0,0.0,10,12,0.0,48.56
+63,Radius Global Solutions LLC,Debt collection,12,0.0,0.0,9,12,0.0,48.56
+64,"SOFI TECHNOLOGIES, INC.",Checking or savings account,12,0.0,0.0,10,12,0.0,48.56
+65,"CLGF Holdco 1, LLC",Credit reporting or other personal consumer reports,11,0.0,0.0,8,11,0.0,47.98
+66,"FAIR COLLECTIONS & OUTSOURCING, INC.",Debt collection,11,0.0,0.0,9,11,0.0,47.98
+67,Mr. Cooper Group Inc.,Mortgage,11,0.0,0.0,7,11,0.0,47.98
+68,NCB Management Services Inc.,Debt collection,11,0.0,0.0,7,11,0.0,47.98
+69,"ProCollect, Inc.",Debt collection,11,0.0,0.0,7,11,0.0,47.98
+70,"Harris & Harris, Ltd.",Debt collection,10,0.0,0.0,7,10,0.0,47.64
+71,"SUNRISE CREDIT SERVICES, INC",Debt collection,10,0.0,0.0,8,10,0.0,47.64
+72,Self Financial Inc.,Credit reporting or other personal consumer reports,10,0.0,0.0,9,10,0.0,47.64
+73,Advanced Resolution Services Inc.,Credit reporting or other personal consumer reports,9,0.0,0.0,7,9,0.0,46.72
+74,"Aldous & Associates, PLLC",Debt collection,9,0.0,0.0,7,9,0.0,46.72
+75,Credit Corp Solutions Inc.,Debt collection,9,0.0,0.0,6,9,0.0,46.72
+76,"Exeter Finance, LLC.",Credit reporting or other personal consumer reports,9,0.0,0.0,5,9,0.0,46.72
+77,"ID Analytics, Inc.",Credit reporting or other personal consumer reports,9,0.0,0.0,4,9,0.0,46.72
+78,TOYOTA MOTOR CREDIT CORPORATION,Credit reporting or other personal consumer reports,9,0.0,0.0,9,9,0.0,46.72
+79,TrueAccord Corp.,Debt collection,9,0.0,0.0,8,9,0.0,46.72
+80,VW Credit,Vehicle loan or lease,9,0.0,0.0,4,9,0.0,46.72
+81,Atlanticus Services Corporation,Credit card,8,0.0,0.0,6,8,0.0,45.79
+82,Bridgecrest Acceptance Corporation,Vehicle loan or lease,8,0.0,0.0,7,8,0.0,45.79
+83,Kikoff Inc.,Credit reporting or other personal consumer reports,8,0.0,0.0,7,8,0.0,45.79
+84,"Navient Solutions, LLC.",Student loan,8,0.0,0.0,6,8,0.0,45.79
+85,PENTAGON FEDERAL CREDIT UNION,Credit reporting or other personal consumer reports,8,0.0,0.0,6,8,0.0,45.79
+86,Rent Recovery Solutions,Debt collection,8,0.0,0.0,3,8,0.0,45.79
+87,"W&A Intermediate Co., LLC",Debt collection,8,0.0,0.0,4,8,0.0,45.79
+88,World Acceptance Corporation,Credit reporting or other personal consumer reports,8,0.0,0.0,7,8,0.0,45.79
+89,BMO BANK NATIONAL ASSOCIATION,Checking or savings account,7,0.0,0.0,5,7,0.0,44.76
+90,CORELOGIC INC,Credit reporting or other personal consumer reports,7,0.0,0.0,5,7,0.0,44.76
+91,"CarMax, Inc.",Credit reporting or other personal consumer reports,7,0.0,0.0,5,7,0.0,44.76
+92,"ENOVA INTERNATIONAL, INC.","Payday loan, title loan, personal loan, or advance loan",7,0.0,0.0,7,7,0.0,44.76
+93,ROBINHOOD MARKETS INC.,Checking or savings account,7,0.0,0.0,7,7,0.0,44.76
+94,Selene Holdings LLC,Mortgage,7,0.0,0.0,7,7,0.0,44.76
+95,Synovus Bank,Credit reporting or other personal consumer reports,7,0.0,0.0,7,7,0.0,44.76
+96,T.S. Holdings,Debt collection,7,0.0,0.0,5,7,0.0,44.76
+97,V and H Portfolio,Debt collection,7,0.0,0.0,5,7,0.0,44.76
+98,"ACIMA CREDIT, LLC",Credit reporting or other personal consumer reports,6,0.0,0.0,5,6,0.0,43.26
+99,Absolute Resolutions Corp.,Debt collection,6,0.0,0.0,5,6,0.0,43.26
+100,"Aqua Finance, Inc.","Payday loan, title loan, personal loan, or advance loan",6,0.0,0.0,5,6,0.0,43.26
+101,Consumer Adjustment Company Incorporated,Debt collection,6,0.0,0.0,5,6,0.0,43.26
+102,"Debt Recovery Solutions, LLC",Debt collection,6,0.0,0.0,4,6,0.0,43.26
+103,"Eastern Account Systems of Connecticut, Inc.",Debt collection,6,0.0,0.0,4,6,0.0,43.26
+104,FC HoldCo LLC,Credit reporting or other personal consumer reports,6,0.0,0.0,4,6,0.0,43.26
+105,LCI Acquisition Inc.,Credit reporting or other personal consumer reports,6,0.0,0.0,5,6,0.0,43.26
+106,Lendmark Financial Services,Credit reporting or other personal consumer reports,6,0.0,0.0,4,6,0.0,43.26
+107,"NRA Group, LLC",Debt collection,6,0.0,0.0,4,6,0.0,43.26
+108,Netspend Corporation,Checking or savings account,6,0.0,0.0,5,6,0.0,43.26
+109,"SELECT PORTFOLIO SERVICING, INC.",Mortgage,6,0.0,0.0,6,6,0.0,43.26
+110,"Security Credit Services, LLC",Credit reporting or other personal consumer reports,6,0.0,0.0,4,6,0.0,43.26
+111,"3G+1, Inc. dba California Auto Finance",Vehicle loan or lease,1,100.0,0.0,1,1,0.0,43.12
+112,"Accscient, LLC",Credit reporting or other personal consumer reports,1,100.0,0.0,1,1,0.0,43.12
+113,CONTRACT RESOLVE GROUP LLC,Debt collection,1,100.0,0.0,1,1,0.0,43.12
+114,"Capital Accounts, LLC",Credit reporting or other personal consumer reports,1,100.0,0.0,1,1,0.0,43.12
+115,"Coast to Coast Financial Solutions, Inc.",Debt collection,1,100.0,0.0,1,1,0.0,43.12
+116,Expert Credit Sweeps,Debt collection,1,100.0,0.0,1,1,0.0,43.12
+117,"Fleet Financial, Inc.",Vehicle loan or lease,1,100.0,0.0,1,1,0.0,43.12
+118,"Ingo Money, Inc.","Money transfer, virtual currency, or money service",1,100.0,0.0,1,1,0.0,43.12
+119,Landmark Collection Services Inc.,Debt collection,1,100.0,0.0,1,1,0.0,43.12
+120,"M & S FUNDING, INC.",Credit reporting or other personal consumer reports,1,100.0,0.0,1,1,0.0,43.12
+121,"Michel Law, LLC d/b/a Level One Law",Debt or credit management,1,100.0,0.0,1,1,0.0,43.12
+122,"Moore Legal Group, LLC",Debt or credit management,1,100.0,0.0,1,1,0.0,43.12
+123,"Nationwide Capital Services, LLC",Debt collection,1,100.0,0.0,1,1,0.0,43.12
+124,"OCMBC, Inc",Mortgage,1,100.0,0.0,1,1,0.0,43.12
+125,"PDQ Services, Inc.",Credit reporting or other personal consumer reports,1,100.0,0.0,1,1,0.0,43.12
+126,PINNACLE CAPITAL MORTGAGE CORP,Mortgage,1,100.0,0.0,1,1,0.0,43.12
+127,Trusted Mortgage Capital Inc,Mortgage,1,100.0,0.0,1,1,0.0,43.12
+128,"Universal Account Servicing, LLC",Debt collection,1,100.0,0.0,1,1,0.0,43.12
+129,Universal Envoy Corporation,Debt collection,1,100.0,0.0,1,1,0.0,43.12
+130,"Williams, Rush & Associates, LLC",Debt collection,1,100.0,0.0,1,1,0.0,43.12
+131,"American Credit Acceptance, LLC",Vehicle loan or lease,5,0.0,0.0,5,5,0.0,40.85
+132,Army and Air Force Exchange Service,Credit reporting or other personal consumer reports,5,0.0,0.0,5,5,0.0,40.85
+133,"CARRINGTON MORTGAGE SERVICES, LLC",Mortgage,5,0.0,0.0,5,5,0.0,40.85
+134,"CAVALRY INVESTMENTS, LLC",Credit reporting or other personal consumer reports,5,0.0,0.0,4,5,0.0,40.85
+135,Central Portfolio Control Inc.,Debt collection,5,0.0,0.0,5,5,0.0,40.85
+136,"Coinbase, Inc.","Money transfer, virtual currency, or money service",5,0.0,0.0,3,5,0.0,40.85
+137,"Consumer Portfolio Services, Inc.",Credit reporting or other personal consumer reports,5,0.0,0.0,4,5,0.0,40.85
+138,FIFTH THIRD FINANCIAL CORPORATION,Checking or savings account,5,0.0,0.0,5,5,0.0,40.85
+139,HYUNDAI CAPITAL AMERICA,Credit reporting or other personal consumer reports,5,0.0,0.0,4,5,0.0,40.85
+140,KEYCORP,Checking or savings account,5,0.0,0.0,4,5,0.0,40.85
+141,MoneyLion Inc.,Credit reporting or other personal consumer reports,5,0.0,0.0,5,5,0.0,40.85
+142,OPORTUN FINANCIAL CORPORATION,Credit reporting or other personal consumer reports,5,0.0,0.0,4,5,0.0,40.85
+143,Ocwen Financial Corporation,Mortgage,5,0.0,0.0,3,5,0.0,40.85
+144,"Prosper Marketplace, Inc.",Credit card,5,0.0,0.0,5,5,0.0,40.85
+145,Regional Management Corporation,Credit reporting or other personal consumer reports,5,0.0,0.0,5,5,0.0,40.85
+146,"Rocket Mortgage, LLC",Credit reporting or other personal consumer reports,5,0.0,0.0,5,5,0.0,40.85
+147,Source Receivables Management LLC,Debt collection,5,0.0,0.0,4,5,0.0,40.85
+148,"Southwest Credit Systems, L.P.",Debt collection,5,0.0,0.0,5,5,0.0,40.85
+149,The Receivable Management Services LLC,Credit reporting or other personal consumer reports,5,0.0,0.0,4,5,0.0,40.85
+150,Velocity Portfolio Group,Debt collection,5,0.0,0.0,5,5,0.0,40.85
+151,"Bounce AI, Inc.",Debt collection,4,0.0,0.0,4,4,0.0,38.78
+152,"Collection Management Holdings, LLC",Credit reporting or other personal consumer reports,4,0.0,0.0,4,4,0.0,38.78
+153,"Colony Brands, Inc.",Debt collection,4,0.0,0.0,1,4,0.0,38.78
+154,EdFinancial Services,Student loan,4,0.0,0.0,2,4,0.0,38.78
+155,FIRST PORTFOLIO SERVICING INC,Debt collection,4,0.0,0.0,3,4,0.0,38.78
+156,FREEDOM FINANCIAL NETWORK,Debt or credit management,4,0.0,0.0,4,4,0.0,38.78
+157,"Fay Servicing, LLC",Mortgage,4,0.0,0.0,3,4,0.0,38.78
+158,FirstPoint Collection Resources,Debt collection,4,0.0,0.0,3,4,0.0,38.78
+159,Global Lending Services LLC,Credit reporting or other personal consumer reports,4,0.0,0.0,4,4,0.0,38.78
+160,"HUNTINGTON NATIONAL BANK, THE",Checking or savings account,4,0.0,0.0,4,4,0.0,38.78
+161,"Halsted Financial Services, LLC.",Debt collection,4,0.0,0.0,4,4,0.0,38.78
+162,"Lockhart, Morris & Montgomery Inc.",Debt collection,4,0.0,0.0,4,4,0.0,38.78
+163,"Marlette Funding, LLC",Credit card,4,0.0,0.0,1,4,0.0,38.78
+164,"Sequium Asset Solutions, LLC",Credit reporting or other personal consumer reports,4,0.0,0.0,4,4,0.0,38.78
+165,"UPGRADE, INC.","Payday loan, title loan, personal loan, or advance loan",4,0.0,0.0,3,4,0.0,38.78
+166,World Omni Financial Corp.,Credit reporting or other personal consumer reports,4,0.0,0.0,3,4,0.0,38.78
+167,"Ability Recovery Services, LLC",Debt collection,3,0.0,0.0,3,3,0.0,34.75
+168,"Advance America, Cash Advance Centers, Inc.",Debt collection,3,0.0,0.0,3,3,0.0,34.75
+169,AmeriCollect,Debt collection,3,0.0,0.0,2,3,0.0,34.75
+170,"Amsher Collection Services, Inc.",Debt collection,3,0.0,0.0,3,3,0.0,34.75
+171,BANCO POPULAR DE PUERTO RICO,Credit card,3,0.0,0.0,2,3,0.0,34.75
+172,BTH Management,Credit reporting or other personal consumer reports,3,0.0,0.0,3,3,0.0,34.75
+173,Bright Capital Inc,Credit card,3,0.0,0.0,2,3,0.0,34.75
+174,CNG FINANCIAL CORPORATION,Credit reporting or other personal consumer reports,3,0.0,0.0,3,3,0.0,34.75
+175,"Carter-Young, Inc.",Credit reporting or other personal consumer reports,3,0.0,0.0,2,3,0.0,34.75
+176,"Cascade CISS Holdings, LLC",Credit reporting or other personal consumer reports,3,0.0,0.0,3,3,0.0,34.75
+177,"Credit Control, LLC",Debt collection,3,0.0,0.0,3,3,0.0,34.75
+178,Credit Service International Corp,Debt collection,3,0.0,0.0,3,3,0.0,34.75
+179,Diverse Funding Associates LLC,Debt collection,3,0.0,0.0,3,3,0.0,34.75
+180,"Diversified Adjustment Service, Inc.",Debt collection,3,0.0,0.0,2,3,0.0,34.75
+181,DriveTime,Credit reporting or other personal consumer reports,3,0.0,0.0,3,3,0.0,34.75
+182,FIRST TECHNOLOGY FEDERAL CREDIT UNION,Checking or savings account,3,0.0,0.0,3,3,0.0,34.75
+183,FinCo Services Inc DBA Current,Checking or savings account,3,0.0,0.0,3,3,0.0,34.75
+184,"LoanCare, LLC",Mortgage,3,0.0,0.0,3,3,0.0,34.75
+185,Millco Management,Debt collection,3,0.0,0.0,2,3,0.0,34.75
+186,"ONLINE Information Services, Inc.",Debt collection,3,0.0,0.0,2,3,0.0,34.75
+187,"Opportunity Financial, LLC",Credit reporting or other personal consumer reports,3,0.0,0.0,3,3,0.0,34.75
+188,"PENNYMAC LOAN SERVICES, LLC.",Mortgage,3,0.0,0.0,3,3,0.0,34.75
+189,Possible Financial Inc,Credit reporting or other personal consumer reports,3,0.0,0.0,2,3,0.0,34.75
+190,REGIONS FINANCIAL CORPORATION,Checking or savings account,3,0.0,0.0,3,3,0.0,34.75
+191,"RentDebt Automated Collections, LLC",Debt collection,3,0.0,0.0,2,3,0.0,34.75
+192,SECURITY FINANCE CORP,Credit reporting or other personal consumer reports,3,0.0,0.0,3,3,0.0,34.75
+193,SOUTHSTATE BANK CORPORATION,Credit reporting or other personal consumer reports,3,0.0,0.0,2,3,0.0,34.75
+194,Sezzle Inc.,Credit reporting or other personal consumer reports,3,0.0,0.0,3,3,0.0,34.75
+195,Stellantis Financial Services US Corp.,Credit reporting or other personal consumer reports,3,0.0,0.0,3,3,0.0,34.75
+196,Thaxton Investment Corporation,Credit reporting or other personal consumer reports,3,0.0,0.0,3,3,0.0,34.75
+197,The Aligned Company DBA Extra,Credit reporting or other personal consumer reports,3,0.0,0.0,2,3,0.0,34.75
+198,Unifin Inc.,Debt collection,3,0.0,0.0,3,3,0.0,34.75
+199,VYSTAR CREDIT UNION,Credit reporting or other personal consumer reports,3,0.0,0.0,2,3,0.0,34.75
+200,21ST MORTGAGE CORP.,Mortgage,2,0.0,0.0,1,2,0.0,26.92
+201,AMERICAN HONDA FINANCE CORP,Debt collection,2,0.0,0.0,2,2,0.0,26.92
+202,Account Resolution Corporation,Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+203,"AmeriHome Mortgage Company, LLC",Mortgage,2,0.0,0.0,2,2,0.0,26.92
+204,"American Collections Enterprise, Inc.",Debt collection,2,0.0,0.0,1,2,0.0,26.92
+205,"American First Finance, Inc.",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+206,"Americas Car-Mart, Inc.",Vehicle loan or lease,2,0.0,0.0,2,2,0.0,26.92
+207,"Ava Finance, Inc",Credit card,2,0.0,0.0,2,2,0.0,26.92
+208,"Avant Holding Company, Inc.",Credit card,2,0.0,0.0,2,2,0.0,26.92
+209,BOEING EMPLOYEES' CREDIT UNION,Credit reporting or other personal consumer reports,2,0.0,0.0,1,2,0.0,26.92
+210,Blackhawk Network Holdings Inc.,Prepaid card,2,0.0,0.0,2,2,0.0,26.92
+211,"Blitt and Gaines, P.C.",Debt collection,2,0.0,0.0,2,2,0.0,26.92
+212,"Bull City Financial Solutions, Inc",Debt collection,2,0.0,0.0,2,2,0.0,26.92
+213,"Burke Moore Law Group, LLP",Debt collection,2,0.0,0.0,1,2,0.0,26.92
+214,"Checkr, Inc",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+215,"Credit Systems International, Inc.",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+216,DigniFi,Credit card,2,0.0,0.0,2,2,0.0,26.92
+217,"EGL US, LLC",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+218,"Esusu, Inc.",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+219,"F.H. Cann & Associates, Inc.",Debt collection,2,0.0,0.0,2,2,0.0,26.92
+220,FISERV FINXACT CORE,Checking or savings account,2,0.0,0.0,2,2,0.0,26.92
+221,FORD MOTOR CREDIT CO.,Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+222,"FactorTrust, Inc.",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+223,"Financial Management Solutions, LLC",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+224,First Credit Services Inc.,Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+225,"First Help Financial, LLC",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+226,"January Technologies, Inc",Debt collection,2,0.0,0.0,2,2,0.0,26.92
+227,"King of Credit Financial, Inc",Credit reporting or other personal consumer reports,2,0.0,0.0,1,2,0.0,26.92
+228,"Kinum, Inc., Indianapolis, IN Branch",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+229,Klarna AB,"Payday loan, title loan, personal loan, or advance loan",2,0.0,0.0,2,2,0.0,26.92
+230,Knight Adjustment Bureau,Debt collection,2,0.0,0.0,1,2,0.0,26.92
+231,Kovo,Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+232,LJ Ross Associates,Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+233,M&T BANK CORPORATION,"Money transfer, virtual currency, or money service",2,0.0,0.0,2,2,0.0,26.92
+234,"MARINER FINANCE, LLC",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+235,"MRS BPO, LLC",Debt collection,2,0.0,0.0,2,2,0.0,26.92
+236,Mercedes Benz Financial Services,Credit reporting or other personal consumer reports,2,0.0,0.0,1,2,0.0,26.92
+237,Mercury Financial Intermediate LLC,Credit card,2,0.0,0.0,2,2,0.0,26.92
+238,MicroBilt / PRBC (formerly CL Verify),Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+239,"Milliman, Inc.",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+240,NEW YORK COMMUNITY BANCORP INC,Credit card,2,0.0,0.0,2,2,0.0,26.92
+241,"Paramount GR Holdings, LLC",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+242,"PatientFi, Inc.",Debt collection,2,0.0,0.0,1,2,0.0,26.92
+243,"Professional Debt Mediation, Inc.",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+244,"Propel, Inc.",Checking or savings account,2,0.0,0.0,2,2,0.0,26.92
+245,RANDOLPH-BROOKS FEDERAL CREDIT UNION,Credit card,2,0.0,0.0,1,2,0.0,26.92
+246,Rosebud Economic Development Corporation,"Payday loan, title loan, personal loan, or advance loan",2,0.0,0.0,2,2,0.0,26.92
+247,SG and Associates,Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+248,SLM CORPORATION,Student loan,2,0.0,0.0,2,2,0.0,26.92
+249,STATE EMPLOYEES CREDIT UNION,Credit reporting or other personal consumer reports,2,0.0,0.0,1,2,0.0,26.92
+250,"Sentry Recovery and Collections, Inc.",Debt collection,2,0.0,0.0,2,2,0.0,26.92
+251,SinglePoint GI,Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+252,"Skrill USA, Inc.","Money transfer, virtual currency, or money service",2,0.0,0.0,2,2,0.0,26.92
+253,Southern Management Systems Inc.,Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+254,"Sparrow Financial, Inc.",Credit reporting or other personal consumer reports,2,0.0,0.0,1,2,0.0,26.92
+255,Sterling Infosystems Inc.,Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+256,"Synerprise Consulting Services, Inc.",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+257,TekCollect Inc.,Debt collection,2,0.0,0.0,2,2,0.0,26.92
+258,"The CBE Group, Inc.",Debt collection,2,0.0,0.0,2,2,0.0,26.92
+259,TransferWise Ltd,"Money transfer, virtual currency, or money service",2,0.0,0.0,2,2,0.0,26.92
+260,U.S. Auto Credit Corporation,Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+261,United PanAm Financial Corp.,Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+262,"Upstart Holdings, Inc.",Credit reporting or other personal consumer reports,2,0.0,0.0,2,2,0.0,26.92
+263,"VANDERBILT MORTGAGE & FINANCE, INC",Mortgage,2,0.0,0.0,1,2,0.0,26.92
+264,"WESTERN UNION COMPANY, THE","Money transfer, virtual currency, or money service",2,0.0,0.0,2,2,0.0,26.92
+265,"Waypoint Resource Group, LLC",Debt collection,2,0.0,0.0,2,2,0.0,26.92
+266,1st Franklin Financial Corporation,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+267,"4M Collections, LLC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+268,90 Day Credit Experts,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+269,A&D Mortgage LLC,Mortgage,1,0.0,0.0,1,1,0.0,0.0
+270,"A+ Loans, Inc.",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+271,ADIR INTERNATIONAL LLC,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+272,AES/PHEAA,Student loan,1,0.0,0.0,1,1,0.0,0.0
+273,"AMCOL Systems, Inc.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+274,AMERICA FIRST FEDERAL CREDIT UNION,Checking or savings account,1,0.0,0.0,1,1,0.0,0.0
+275,"ARC Management Group, LLC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+276,"ARS National Services, Inc.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+277,"ARVEST BANK GROUP, INC.",Checking or savings account,1,0.0,0.0,1,1,0.0,0.0
+278,"AUDIT SYSTEMS,INC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+279,"AUSSRQ Holdings, LLC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+280,Accelerated Receivables Solutions,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+281,Activehours,"Payday loan, title loan, personal loan, or advance loan",1,0.0,0.0,1,1,0.0,0.0
+282,"Advantage Auto Sales, Inc.",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+283,"Advantage Credit, Inc.",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+284,Albert Corporation,Checking or savings account,1,0.0,0.0,1,1,0.0,0.0
+285,All Debt Solutions Inc. dba: 1st Class Agency,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+286,Alorica Inc.,Debt collection,1,0.0,0.0,1,1,0.0,0.0
+287,"Alpine Credit, Inc",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+288,American Coradius International LLC,Debt collection,1,0.0,0.0,1,1,0.0,0.0
+289,"American Heritage Lending, LLC",Mortgage,1,0.0,0.0,1,1,0.0,0.0
+290,American Lending Finance,Vehicle loan or lease,1,0.0,0.0,1,1,0.0,0.0
+291,"Apelles, LLC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+292,"Arbor Professional Solutions, Inc.",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+293,"Aspen National Financial, Inc.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+294,"Atlas Credit Company, Inc.","Payday loan, title loan, personal loan, or advance loan",1,0.0,0.0,1,1,0.0,0.0
+295,"Atlas Exploration, Inc.",Checking or savings account,1,0.0,0.0,1,1,0.0,0.0
+296,Auto Loan Inc.,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+297,"AutoStar Finance, Inc - D/B/A Atlanta AutoStar",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+298,Automotive Financial Services,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+299,"Axela Technologies, Inc",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+300,"Axiom Acquisition Ventures, LLC",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+301,"B9, Inc.","Money transfer, virtual currency, or money service",1,0.0,0.0,1,1,0.0,0.0
+302,"BALANCED HEALTHCARE RECEIVABLES, LLC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+303,"BANK OF NEW YORK MELLON CORPORATION, THE",Checking or savings account,1,0.0,0.0,1,1,0.0,0.0
+304,BANKERS HEALTHCARE GROUP LLC,"Payday loan, title loan, personal loan, or advance loan",1,0.0,0.0,1,1,0.0,0.0
+305,"BMW Financial Services NA, LLC",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+306,"BYS, LLC. d/b/a Boost Your Score",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+307,"Bepensa Capital, Inc.",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+308,"BetterNOI, LLC",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+309,"Bilt Technologies, Inc.",Credit card,1,0.0,0.0,1,1,0.0,0.0
+310,"Blockchain.com, Inc.","Money transfer, virtual currency, or money service",1,0.0,0.0,1,1,0.0,0.0
+311,BlueChip Financial,"Payday loan, title loan, personal loan, or advance loan",1,0.0,0.0,1,1,0.0,0.0
+312,C/C Financial,Debt collection,1,0.0,0.0,1,1,0.0,0.0
+313,"CARS Acquisition, LLC",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+314,"CHARLES SCHWAB CORPORATION, THE",Checking or savings account,1,0.0,0.0,1,1,0.0,0.0
+315,CIBC BANCORP USA INC.,Checking or savings account,1,0.0,0.0,1,1,0.0,0.0
+316,"CMG Financial Services, Inc.",Mortgage,1,0.0,0.0,1,1,0.0,0.0
+317,"COAST PROFESSIONAL, INC.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+318,"COLUMBIA BANKING SYSTEM, INC.",Checking or savings account,1,0.0,0.0,1,1,0.0,0.0
+319,CONTRACT CALLERS INC,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+320,"Capio Partners, LLC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+321,"Carvana Group, LLC",Vehicle loan or lease,1,0.0,0.0,1,1,0.0,0.0
+322,City First Mortgage Corp,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+323,Cliff Lending Inc. d/b/a Advance Loan Solutions,"Payday loan, title loan, personal loan, or advance loan",1,0.0,0.0,1,1,0.0,0.0
+324,Climb Credit Inc.,Debt collection,1,0.0,0.0,1,1,0.0,0.0
+325,Collection Bureau of America Ltd.,Debt collection,1,0.0,0.0,1,1,0.0,0.0
+326,Comerica,Prepaid card,1,0.0,0.0,1,1,0.0,0.0
+327,"Complete Credit Solutions, Inc.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+328,Contemporary Information Corp,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+329,"Convergent Resources, Inc.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+330,"Cordoba Legal Group, PLLC.",Debt or credit management,1,0.0,0.0,1,1,0.0,0.0
+331,Credit Fresh Holdings Inc,Debt collection,1,0.0,0.0,1,1,0.0,0.0
+332,"Credit Karma, LLC",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+333,"Credit Service Company, INC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+334,"DMB Financial, LLC",Debt or credit management,1,0.0,0.0,1,1,0.0,0.0
+335,DOLLAR MUTUAL BANCORP,Mortgage,1,0.0,0.0,1,1,0.0,0.0
+336,Data Mortgage Inc.,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+337,Deatrick & Spies PSC,Debt collection,1,0.0,0.0,1,1,0.0,0.0
+338,"Dovenmuehle Mortgage, Inc.",Mortgage,1,0.0,0.0,1,1,0.0,0.0
+339,"Duvera Billing Services, LLC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+340,"Dynamic Collectors, Incorporated",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+341,"EVERBANK, NATIONAL ASSOCIATION",Checking or savings account,1,0.0,0.0,1,1,0.0,0.0
+342,"Eastern Revenue, Inc.",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+343,FIRST ADVANTAGE CORPORATION,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+344,FIRST NATIONAL BANK OF OMAHA,Credit card,1,0.0,0.0,1,1,0.0,0.0
+345,FULTON FINANCIAL CORPORATION,Checking or savings account,1,0.0,0.0,1,1,0.0,0.0
+346,Fidelity Properties Inc.,Debt collection,1,0.0,0.0,1,1,0.0,0.0
+347,Financial Assistance Inc,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+348,First Advantage LNS Inc.,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+349,"First National Collection Bureau, Inc.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+350,First Technology Federal Credit Union,Checking or savings account,1,0.0,0.0,1,1,0.0,0.0
+351,"Firstsource Business Process Services, LLC",Credit card,1,0.0,0.0,1,1,0.0,0.0
+352,Friendly Finance Corporation,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+353,"GLA Collection Company, Inc.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+354,GLOBAL CREDIT UNION,Debt collection,1,0.0,0.0,1,1,0.0,0.0
+355,"GREENSKY OPERATIONS, LLC",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+356,Gatestone & Co. International Inc.,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+357,General Collection Co.,Debt collection,1,0.0,0.0,1,1,0.0,0.0
+358,Georgia Student Finance Authority,Student loan,1,0.0,0.0,1,1,0.0,0.0
+359,"Glass Mountain Capital, LLC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+360,"Glasser and Glasser, PLC",Credit card,1,0.0,0.0,1,1,0.0,0.0
+361,Great American Finance Co,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+362,"GreenPath, Inc.",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+363,HSBC NORTH AMERICA HOLDINGS INC.,Credit card,1,0.0,0.0,1,1,0.0,0.0
+364,Healthcare Finance Direct LLC.,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+365,"Helvey & Associates, Inc., Warsaw, IN Branch",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+366,"Herbert P. Sears Co., Inc.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+367,"HireRight Solutions, Inc.",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+368,Holloway Credit Solutions,Debt collection,1,0.0,0.0,1,1,0.0,0.0
+369,Idaho Housing And Finance Association,Mortgage,1,0.0,0.0,1,1,0.0,0.0
+370,InDebted Corporation,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+371,"J J Marshall & Associates, Inc",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+372,"Javitch, Block & Rathbone LLC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+373,"Key 2 Recovery, Inc.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+374,"Kimball, Tirey & St. John LLP",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+375,Kingston Data & Credit International Inc.,Debt collection,1,0.0,0.0,1,1,0.0,0.0
+376,"Kratochvil Law, P.C.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+377,"LAKEVIEW LOAN SERVICING, LLC",Mortgage,1,0.0,0.0,1,1,0.0,0.0
+378,"LD Holdings Group, LLC",Mortgage,1,0.0,0.0,1,1,0.0,0.0
+379,"LDF Holdings, LLC","Payday loan, title loan, personal loan, or advance loan",1,0.0,0.0,1,1,0.0,0.0
+380,LOBEL FINANCIAL CORPORATION,Vehicle loan or lease,1,0.0,0.0,1,1,0.0,0.0
+381,Larry H. Miller Group of Companies,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+382,"Law Office of Michael J. Scott, PC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+383,LendingPoint Holdings LLC,Debt collection,1,0.0,0.0,1,1,0.0,0.0
+384,LendingUSA,"Payday loan, title loan, personal loan, or advance loan",1,0.0,0.0,1,1,0.0,0.0
+385,"Lloyd & McDaniel, PLC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+386,"Loan South Finance & Tax Service of Troy, LLC",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+387,MCMC Auto LTD,Vehicle loan or lease,1,0.0,0.0,1,1,0.0,0.0
+388,"MERCANTILE ADJUSTMENT BUREAU, LLC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+389,MORGAN STANLEY & CO. LLC,Checking or savings account,1,0.0,0.0,1,1,0.0,0.0
+390,MORTGAGE SOLUTIONS OF COLORADO,Mortgage,1,0.0,0.0,1,1,0.0,0.0
+391,"MPOWER Financing, Public Benefit Corporation",Student loan,1,0.0,0.0,1,1,0.0,0.0
+392,"McNeil & Meyers Asset Management Group, LLC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+393,Merchants Acceptance Corp,Debt collection,1,0.0,0.0,1,1,0.0,0.0
+394,"Merchants Adjustment Service, Inc.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+395,"Mercury Technologies, Inc.",Checking or savings account,1,0.0,0.0,1,1,0.0,0.0
+396,Midwest Acceptance Corp.,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+397,"Miller Investment Group, Inc DBA AutoNow",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+398,Minto Financial dba Minto Money,"Payday loan, title loan, personal loan, or advance loan",1,0.0,0.0,1,1,0.0,0.0
+399,"Mirand Response Systems, Inc.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+400,Mnet Financial Inc,Debt collection,1,0.0,0.0,1,1,0.0,0.0
+401,"Momnt Technologies, Inc.","Payday loan, title loan, personal loan, or advance loan",1,0.0,0.0,1,1,0.0,0.0
+402,Monterey Financial Services LLC,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+403,NATIONAL DEBT RELIEF LLC,Debt or credit management,1,0.0,0.0,1,1,0.0,0.0
+404,"NCP Holdings, L.P.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+405,NISSAN MOTOR ACCEPTANCE COMPANY LLC,Vehicle loan or lease,1,0.0,0.0,1,1,0.0,0.0
+406,"NPG Associates, Inc.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+407,"National Collection Systems, Inc.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+408,"National Commercial Services, Inc",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+409,"National Enterprise Systems, Inc.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+410,"Nationwide Mortgage Bankers, Inc.",Mortgage,1,0.0,0.0,1,1,0.0,0.0
+411,"Nav Technologies, Inc.",Credit card,1,0.0,0.0,1,1,0.0,0.0
+412,"OPTUM BANK, INC.",Credit card,1,0.0,0.0,1,1,0.0,0.0
+413,"Open Dealer Exchange, LLC",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+414,Opportunity Fund,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+415,"Optio Solutions, LLC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+416,PENNSYLVANIA HOUSING FINANCE AGENCY,Mortgage,1,0.0,0.0,1,1,0.0,0.0
+417,"PLANET HOME LENDING, LLC",Mortgage,1,0.0,0.0,1,1,0.0,0.0
+418,"PLS GROUP, INC","Money transfer, virtual currency, or money service",1,0.0,0.0,1,1,0.0,0.0
+419,PREFERRED CREDIT INC,Debt collection,1,0.0,0.0,1,1,0.0,0.0
+420,"PROFICIO FINANCIAL SERVICES, LLC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+421,"PROSPERITY BANCSHARES, INC.",Checking or savings account,1,0.0,0.0,1,1,0.0,0.0
+422,"Paramount Recovery Systems, L.P.",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+423,Park Hill Holdings,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+424,Patient Accounting Service Center,Debt collection,1,0.0,0.0,1,1,0.0,0.0
+425,"Paxful Holdings, Inc.","Money transfer, virtual currency, or money service",1,0.0,0.0,0,1,0.0,0.0
+426,"Peer Advisors, LLC",Mortgage,1,0.0,0.0,1,1,0.0,0.0
+427,Prince Parker & Associates,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+428,"Progrexion Holdings, Inc.",Debt or credit management,1,0.0,0.0,1,1,0.0,0.0
+429,QUALITY ACCEPTANCE LLC,Vehicle loan or lease,1,0.0,0.0,1,1,0.0,0.0
+430,"R.A.Rogers, Inc.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+431,"RAS LaVrar, LLC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+432,"RFNA, LP",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+433,"RGS Financial, Inc.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+434,RUOFF MORTGAGE,Mortgage,1,0.0,0.0,1,1,0.0,0.0
+435,Range View Management LLC,Debt or credit management,1,0.0,0.0,1,1,0.0,0.0
+436,"Receivable Collection Services, LLC",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+437,"Receivable Management Group, Inc. (GA)",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+438,"Receivable Recovery Services, LLC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+439,"Receivables Management Partners, LLC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+440,"Red White and Blue Autos, Inc.",Vehicle loan or lease,1,0.0,0.0,1,1,0.0,0.0
+441,"ResidentCollect, Inc.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+442,"Roadrunner Account Services, LLC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+443,"Round Up Ventures, L.P.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+444,RoundPoint Mortgage Servicing LLC,Mortgage,1,0.0,0.0,1,1,0.0,0.0
+445,"Rubin & Rothman, LLC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+446,SCHOOLSFIRST FEDERAL CREDIT UNION,Debt collection,1,0.0,0.0,1,1,0.0,0.0
+447,SECURITY SERVICE FEDERAL CREDIT UNION,Checking or savings account,1,0.0,0.0,1,1,0.0,0.0
+448,"SERVICEMAC, LLC",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+449,"SF VAGO, LLC",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+450,SN SERVICING CORPORATION,Mortgage,1,0.0,0.0,1,1,0.0,0.0
+451,"Seattle Service Bureau, Inc",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+452,"Selip & Stylianou, LLP",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+453,"Shepherd Outsourcing, LLC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+454,"Skopos Financial, LLC",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+455,Solar Mosaic LLC,"Payday loan, title loan, personal loan, or advance loan",1,0.0,0.0,1,1,0.0,0.0
+456,"Steel River Systems, LLC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+457,"Stenger & Stenger, P.C",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+458,Sulphur Bank Rancheria Enterprises,"Payday loan, title loan, personal loan, or advance loan",1,0.0,0.0,1,1,0.0,0.0
+459,Sunlight Financial LLC,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+460,"Superior Holdings, LLC",Vehicle loan or lease,1,0.0,0.0,1,1,0.0,0.0
+461,Synergetic Communication Inc,Debt collection,1,0.0,0.0,1,1,0.0,0.0
+462,"TESORO FINANCIAL, LLC",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+463,"The Best Service Co.,Inc",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+464,"The Law Offices of Jennifer McCoy, PC",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+465,The Moore Law Group,Debt collection,1,0.0,0.0,1,1,0.0,0.0
+466,"The Stark Collection Agency, Inc.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+467,"Tilt Finance, Inc.","Payday loan, title loan, personal loan, or advance loan",1,0.0,0.0,1,1,0.0,0.0
+468,"Torres Credit Services, Inc.",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+469,"Tower Loan of Mississippi, Inc.",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+470,"Trident Asset Management, L.L.C.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+471,"USCB, Inc.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+472,"United Collection Bureau, Inc.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+473,United Revenue Corporation,Debt collection,1,0.0,0.0,1,1,0.0,0.0
+474,"Valley Collection Service, LLC",Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+475,"Volvo Car Financial Services U.S., LLC",Vehicle loan or lease,1,0.0,0.0,1,1,0.0,0.0
+476,"WEBSTER BANK, NATIONAL ASSOCIATION",Checking or savings account,1,0.0,0.0,1,1,0.0,0.0
+477,"Weltman, Weinberg & Reis Co., L.P.A.",Debt collection,1,0.0,0.0,1,1,0.0,0.0
+478,Yamaha Motor Finance Corporation USA,Credit reporting or other personal consumer reports,1,0.0,0.0,1,1,0.0,0.0
+479,Zions Debt Holdings,Debt collection,1,0.0,0.0,1,1,0.0,0.0

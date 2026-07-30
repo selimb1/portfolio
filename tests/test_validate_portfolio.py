@@ -1,5 +1,7 @@
 from pathlib import Path
 from tempfile import TemporaryDirectory
+from hashlib import sha256
+import json
 import unittest
 
 from scripts.validate_portfolio import validate_repository
@@ -29,6 +31,53 @@ class PortfolioValidationTest(unittest.TestCase):
                 + "\n\nhttps://example.com/source\n",
                 encoding="utf-8",
             )
+            (folder / "data").mkdir()
+            sample_path = folder / "data" / "sample.csv"
+            sample_path.write_text(
+                "id,value\n1,10\n", encoding="utf-8"
+            )
+            (folder / "data" / "source.json").write_text(
+                json.dumps(
+                    {
+                        "url": "https://example.com/source",
+                        "rows": 1,
+                        "retrieved_at": "2026-07-30T00:00:00+00:00",
+                        "sha256": sha256(sample_path.read_bytes()).hexdigest(),
+                    }
+                ),
+                encoding="utf-8",
+            )
+            (folder / "outputs").mkdir()
+            (folder / "outputs" / "metrics.json").write_text(
+                json.dumps({"metric": 1.0}), encoding="utf-8"
+            )
+            (folder / "outputs" / "figure.png").write_bytes(b"png")
+            (folder / "notebooks").mkdir()
+            (folder / "notebooks" / "analysis.ipynb").write_text(
+                json.dumps(
+                    {
+                        "nbformat": 4,
+                        "nbformat_minor": 5,
+                        "metadata": {},
+                        "cells": [
+                            {
+                                "cell_type": "code",
+                                "execution_count": 1,
+                                "metadata": {},
+                                "source": ["print('ok')"],
+                                "outputs": [
+                                    {
+                                        "output_type": "stream",
+                                        "name": "stdout",
+                                        "text": ["ok\n"],
+                                    }
+                                ],
+                            }
+                        ],
+                    }
+                ),
+                encoding="utf-8",
+            )
             links.append(f"[Proyecto {index}](projects/0{index}-project/README.md)")
         (root / "README.md").write_text(
             "# Portfolio\n\n" + "\n".join(links), encoding="utf-8"
@@ -52,6 +101,23 @@ class PortfolioValidationTest(unittest.TestCase):
             )
             errors = validate_repository(root)
             self.assertTrue(any("03-project" in error for error in errors))
+
+    def test_missing_technical_artifacts_are_reported(self) -> None:
+        with TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            self.build_repo(root)
+            (root / "projects" / "02-project" / "data" / "sample.csv").unlink()
+            errors = validate_repository(root)
+            self.assertTrue(any("data/sample.csv" in error for error in errors))
+
+    def test_source_hash_mismatch_is_reported(self) -> None:
+        with TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            self.build_repo(root)
+            sample = root / "projects" / "04-project" / "data" / "sample.csv"
+            sample.write_text("id,value\n1,999\n", encoding="utf-8")
+            errors = validate_repository(root)
+            self.assertTrue(any("sha256" in error for error in errors))
 
 
 if __name__ == "__main__":

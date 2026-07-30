@@ -1,0 +1,11 @@
+{
+  "fiscal_year": 2024,
+  "retrieved_at": "2026-07-30T05:10:15+00:00",
+  "rows": 25000,
+  "sample_seed": 42,
+  "sha256": "d9eb5646b392ebce1ab8086785485c77b965ff1c65f1d0c5faddcf5103a69528",
+  "source_page": "https://databook.nyc/procurement/data-sources",
+  "source_rows": 200000,
+  "source_type": "NYC Databook parquet derived from Checkbook NYC",
+  "url": "https://nyc-databook-spending.s3.amazonaws.com/fiscal_year=2024/chunk_0001.parquet"
+}

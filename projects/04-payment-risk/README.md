@@ -6,9 +6,26 @@
 
 **Cobrar antes de perseguir — Predicción explicable de mora B2B**
 
-Predice, al emitir una factura, cuáles tienen mayor probabilidad de pagarse con más de 15 días de atraso y convierte ese riesgo en una política de cobranza rentable.
+Predice, al emitir una factura, cuáles tienen mayor probabilidad de pagarse con más de 30 días de atraso y convierte ese riesgo en una política de cobranza rentable.
 
 **Decisión que habilita:** asignar contactos preventivos y capacidad del equipo según riesgo, importe y costo esperado.
+
+## Evidencia ejecutada
+
+La cartera incluida contiene **20.000 facturas sintéticas y reproducibles** a lo largo de 36 meses. Una regresión logística usa solo información disponible al emitir la factura y se evalúa en las 3.926 facturas más recientes, sin split aleatorio ni fuga temporal.
+
+El modelo logró **PR-AUC 0,586** frente a una prevalencia de 0,313, **ROC-AUC 0,739** y lift **2,26×** en el decil superior. Revisar solo el 10% de mayor riesgo capturó el **21,56% del importe moroso** del test temporal.
+
+![Ganancia y calibración del modelo de pago](outputs/figure.png)
+
+**Cómo verificarlo**
+
+```bash
+python -m portfolio_analytics.payment_risk
+pytest tests/test_payment_risk.py
+```
+
+Archivos auditables: [notebook ejecutado](notebooks/analysis.ipynb), [datos](data/sample.csv), [contrato del generador](data/source.json), [predicciones fuera de muestra](outputs/payment_risk_predictions.csv), [métricas](outputs/metrics.json), [model card](outputs/model_card.md) y [código](../../src/portfolio_analytics/payment_risk.py).
 
 ## 2. Fuente de datos
 
@@ -16,7 +33,7 @@ No suele existir un dataset público de cuentas por cobrar B2B con historial, co
 
 Para calibrar distribuciones agregadas se puede usar el [CSV público de Payment Practices Reporting del gobierno británico](https://check-payment-practices.service.gov.uk/export/), que informa tiempos y proporciones de facturas pagadas fuera de término por grandes empresas. Esos agregados sirven como benchmark; no se transforman en historiales de factura inexistentes.
 
-Escala recomendada:
+La versión incluida usa 20.000 facturas para que el caso corra rápidamente en cualquier notebook; el generador acepta una escala mayor. Escala objetivo para ampliarlo:
 
 - 2.000 clientes;
 - 250.000 facturas;
@@ -58,7 +75,7 @@ El generador debe publicar las reglas y una tabla de balance contable para que l
 
 ## 3. Preguntas de negocio
 
-- ¿Qué facturas corren riesgo de superar 15 días de atraso al momento de emisión?
+- ¿Qué facturas corren riesgo de superar 30 días de atraso al momento de emisión?
 - ¿Qué variables explican el riesgo sin usar información del futuro?
 - ¿Cuánto mejora una política predictiva respecto de contactar por mayor importe o antigüedad?
 - ¿Dónde ubicar el umbral si un contacto tiene costo y también puede generar fricción?
@@ -104,7 +121,7 @@ Crear snapshots “as of” para demostrar que cada feature respeta el corte.
 - comparar distribuciones con parámetros esperados;
 - generar un “data card” que separe variables simuladas de derivadas.
 
-El objetivo `late_15` vale 1 si el pago final ocurre más de 15 días después del vencimiento o permanece impago al cierre de observación.
+El objetivo `late_30` vale 1 si el pago final ocurre más de 30 días después del vencimiento o permanece impago al cierre de observación.
 
 ### Paso 3 — EDA de cartera
 
@@ -211,9 +228,7 @@ La curva de ganancia debe comparar modelo, regla por importe y selección aleato
 
 ## 7. Frase para el portfolio
 
-> “Con capacidad para contactar solo **[X%]** de las facturas, la política capturó **[Y%]** del importe que terminaría 15+ días vencido, **[Z puntos]** más que priorizar únicamente por monto, manteniendo calibrado el riesgo por segmento.”
-
-La frase describe un backtest sobre datos sintéticos. Debe rotularse como tal hasta validarla en datos reales.
+> “Con capacidad para revisar solo el 10% de las facturas, la política capturó el 21,56% del importe que terminó 30+ días vencido y alcanzó un lift de 2,26× sobre selección aleatoria. Es un backtest temporal sobre datos sintéticos reproducibles, no una promesa de impacto causal.”
 
 ## 8. Nivel de dificultad
 

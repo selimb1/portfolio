@@ -1,0 +1,57 @@
+{
+  "01-working-capital": {
+    "approximate_cash_effect_usd": 26804782.21,
+    "companies": 4,
+    "comparable_observations": 12,
+    "largest_ccc_change_days": 0.22,
+    "largest_deterioration_company": "Deere",
+    "latest_year": 2025,
+    "median_latest_ccc_days": 87.8,
+    "sample_rows": 16
+  },
+  "02-complaint-risk-sql": {
+    "companies": 479,
+    "complaints": 20000,
+    "products": 11,
+    "sql_window_functions": 6,
+    "top_company_complaints": 73,
+    "top_company_untimely_rate_pct": 2.74,
+    "top_risk_company": "Portfolio Recovery Associates, LLC",
+    "top_risk_score": 96.12
+  },
+  "03-behavioral-finance": {
+    "cluster_stability_ari": 0.945,
+    "clustered_respondents": 6255,
+    "highest_wellbeing_segment": "Resilientes planificadores",
+    "lowest_wellbeing_segment": "Vulnerables reactivos",
+    "respondents": 6394,
+    "segments": 4,
+    "strongest_association": "ABSORBSHOCK",
+    "weighted_regression_r2": 0.509,
+    "wellbeing_gap_points": 29.6
+  },
+  "04-payment-risk": {
+    "brier_score": 0.18,
+    "late_amount_captured_top_decile_pct": 21.56,
+    "pr_auc": 0.586,
+    "roc_auc": 0.739,
+    "test_invoices": 3926,
+    "test_late_rate_pct": 31.33,
+    "test_start": "2025-05-26",
+    "top_decile_lift": 2.26,
+    "train_invoices": 16074
+  },
+  "05-spend-anomalies": {
+    "agencies": 80,
+    "duplicate_like_flags": 311,
+    "injected_anomaly_recall": 0.92,
+    "missing_contract_flags": 18,
+    "payees": 4021,
+    "payments": 25000,
+    "review_queue_exposure_usd": 6742374389.81,
+    "review_queue_rows": 250,
+    "top_evidence_payee": "STATE OF NEW YORK",
+    "top_evidence_score": 99.98,
+    "total_exposure_usd": 16160658456.77
+  }
+}

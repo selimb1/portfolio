@@ -10,6 +10,23 @@ Convierte millones de reclamos de consumidores en un mapa de fallas operativas p
 
 **Decisión que habilita:** priorizar el backlog de remediación por producto, problema, canal, geografía y tendencia.
 
+## Evidencia ejecutada
+
+El repositorio incluye **20.000 reclamos reales**, 479 empresas y 11 productos del CFPB. La preparación en Python se limita a normalizar encabezados y excluir texto sensible; toda la lógica analítica está en [SQL auditable](sql/risk_queue.sql), con `ROW_NUMBER`, `LAG`, promedio móvil y `PERCENT_RANK`.
+
+La cola explicable ubicó primero a **Portfolio Recovery Associates, LLC** con un puntaje de **96,12/100** dentro de esta muestra. La señal combina volumen y respuesta no oportuna: ordena revisión operativa, pero no pretende medir calidad empresarial sin un denominador de clientes.
+
+![Cola de riesgo operativo basada en reclamos](outputs/figure.png)
+
+**Cómo verificarlo**
+
+```bash
+python -m portfolio_analytics.complaint_sql
+pytest tests/test_complaint_sql.py
+```
+
+Archivos auditables: [notebook ejecutado](notebooks/analysis.ipynb), [muestra](data/sample.csv), [trazabilidad](data/source.json), [consulta principal](sql/risk_queue.sql), [cola completa](outputs/risk_queue.csv), [métricas](outputs/metrics.json) y [código de orquestación](../../src/portfolio_analytics/complaint_sql.py).
+
 ## 2. Fuente de datos
 
 **Fuente real, pública y actualizable:** [CFPB Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/), disponible para descarga y consulta mediante API.
@@ -156,9 +173,7 @@ El gráfico principal debe ser el heatmap: permite pasar de “subieron los recl
 
 ## 7. Frase para el portfolio
 
-> “El aumento total ocultaba una concentración operativa: **[producto + problema]** explicó **[X%]** del crecimiento reciente y sostuvo una tasa de respuesta no oportuna de **[Y%]** durante **[N meses]**; por eso pasó al primer lugar de la cola de remediación.”
-
-Los campos se reemplazan con resultados del pipeline. La frase no debe convertirse en un ranking de calidad empresarial sin datos de exposición.
+> “En una muestra de 20.000 reclamos, Portfolio Recovery Associates encabezó la cola explicable con 96,12 puntos. El hallazgo prioriza una revisión por la combinación observada de volumen y respuestas tardías; no es un ranking de calidad porque CFPB no aporta el número de clientes o transacciones expuestas.”
 
 ## 8. Nivel de dificultad
 
