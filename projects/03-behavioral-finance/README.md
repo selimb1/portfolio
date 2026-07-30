@@ -10,6 +10,23 @@ Identifica por qué clientes con recursos parecidos toman decisiones financieras
 
 **Decisión que habilita:** adaptar mensajes, herramientas y productos al obstáculo conductual dominante de cada segmento.
 
+## Evidencia ejecutada
+
+El análisis utiliza las **6.394 respuestas** del archivo público del CFPB, convierte códigos de no respuesta a nulos, conserva pesos muestrales y asigna 6.255 casos completos a cuatro segmentos. El clustering alcanza una estabilidad media **ARI de 0,945** entre semillas y la regresión ponderada explica el **50,9%** de la variación observada en bienestar.
+
+La brecha entre “Vulnerables reactivos” y “Resilientes planificadores” es de **29,6 puntos** de bienestar. La capacidad de absorber un shock fue la asociación estandarizada más fuerte: el producto debería priorizar automatización y resiliencia antes que sumar contenido educativo genérico.
+
+![Mapa de segmentos conductuales](outputs/figure.png)
+
+**Cómo verificarlo**
+
+```bash
+python -m portfolio_analytics.behavioral_finance
+pytest tests/test_behavioral_finance.py
+```
+
+Archivos auditables: [muestra](data/sample.csv), [trazabilidad](data/source.json), [perfiles](outputs/segment_profiles.csv), [asignaciones](outputs/respondent_segments.csv), [métricas](outputs/metrics.json) y [código](../../src/portfolio_analytics/behavioral_finance.py).
+
 ## 2. Fuente de datos
 
 **Fuente real y pública:** [CFPB National Financial Well-Being Survey](https://www.consumerfinance.gov/data-research/financial-well-being-survey-data/).
@@ -157,6 +174,8 @@ Preferir dot plots al radar si se necesita comparar con precisión. El cuadrante
 ## 7. Frase para el portfolio
 
 > “El ingreso no explicó toda la diferencia: dentro del mismo quintil, el segmento **[nombre]** mostró una brecha de **[X puntos]** de bienestar asociada con **[conducta/resiliencia]**. La oportunidad no es dar más información, sino reducir **[fricción concreta]**.”
+
+**Insight ejecutado:** “La brecha entre los perfiles extremos fue de 29,6 puntos de bienestar y la capacidad de absorber un shock mostró la asociación estandarizada más fuerte. La oportunidad no es dar más información a todos, sino adaptar automatización, simplificación y construcción de resiliencia a la fricción de cada segmento.”
 
 “Asociada” es deliberado: el diseño observacional no autoriza lenguaje causal.
 

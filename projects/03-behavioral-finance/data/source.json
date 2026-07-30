@@ -1,0 +1,23 @@
+{
+  "retrieved_at": "2026-07-30T05:05:06+00:00",
+  "rows": 6394,
+  "selected_columns": [
+    "PUF_ID",
+    "FWBscore",
+    "FSscore",
+    "SUBKNOWL1",
+    "SAVEHABIT",
+    "SCFHORIZON",
+    "ABSORBSHOCK",
+    "PPINCIMP",
+    "finalwt",
+    "LMscore",
+    "FINGOALS",
+    "SELFCONTROL_1"
+  ],
+  "sha256": "3a097c923fe8263a78d738ff8ffb4ba848642f57536deb42381d712c63bd7e5a",
+  "source_type": "CFPB National Financial Well-Being Survey public-use file",
+  "special_codes": "negative nonresponse codes converted to null; ABSORBSHOCK=8 converted to null",
+  "survey_year": 2016,
+  "url": "https://www.consumerfinance.gov/documents/5614/NFWBS_PUF_2016_data.csv"
+}

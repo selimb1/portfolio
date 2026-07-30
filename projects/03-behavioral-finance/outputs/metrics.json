@@ -1,0 +1,11 @@
+{
+  "cluster_stability_ari": 0.945,
+  "clustered_respondents": 6255,
+  "highest_wellbeing_segment": "Resilientes planificadores",
+  "lowest_wellbeing_segment": "Vulnerables reactivos",
+  "respondents": 6394,
+  "segments": 4,
+  "strongest_association": "ABSORBSHOCK",
+  "weighted_regression_r2": 0.509,
+  "wellbeing_gap_points": 29.6
+}
