@@ -1,0 +1,13 @@
+{
+  "period": [
+    "2023-01-01",
+    "2025-12-30"
+  ],
+  "realism_note": "customer heterogeneity, prior payment behavior, disputes, terms and macro pressure",
+  "retrieved_at": "2026-07-30T05:07:22+00:00",
+  "rows": 20000,
+  "seed": 42,
+  "sha256": "b7012bb6de2f44120935ed5638df96e0b5b198f2da5726f11be0952267c0c77a",
+  "source_type": "deterministic synthetic accounts-receivable ledger",
+  "url": "generated://portfolio_analytics.payment_risk.generate_invoices"
+}

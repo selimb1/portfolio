@@ -1,0 +1,11 @@
+{
+  "brier_score": 0.18,
+  "late_amount_captured_top_decile_pct": 21.56,
+  "pr_auc": 0.586,
+  "roc_auc": 0.739,
+  "test_invoices": 3926,
+  "test_late_rate_pct": 31.33,
+  "test_start": "2025-05-26",
+  "top_decile_lift": 2.26,
+  "train_invoices": 16074
+}
